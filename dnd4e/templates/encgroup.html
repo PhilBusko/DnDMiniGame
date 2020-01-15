@@ -1,0 +1,431 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Encounter Group</span>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="config_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Configuration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "config" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4 col-xl-2">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="display_table">
+                <div class="display_row">
+                    {% ctrl_select "chars" "Characters" %}
+                </div>
+                <div class="display_row">
+                    {% ctrl_select "level" "Level" %}
+                </div>
+                <div class="display_row">
+                    {% ctrl_select "habitat" "Habitat" %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-5 col-xl-3">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="display_table">
+                <div class="display_row">
+                    {% ctrl_select "allyGroup" "Ally Group" %}
+                </div>
+                <div class="display_row">
+                    {% ctrl_select "origin" "Origin" %}
+                </div>
+                <div class="display_row">
+                    {% ctrl_select "type" "Type" %}
+                </div>
+                <div class="display_row">
+                    {% ctrl_select "threat" "Threat" %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-2 col-lg-3 col-xl-2">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp"
+            style="text-align: center; height: 100px;">
+            <br>
+            {% ctrl_button "generate" "Generate" %}
+        </div>
+    </div>
+
+</div>
+
+
+<br>
+<div id="groups_section" class="row">
+
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Encounter Groups</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "groups" %}</div>
+    </div>
+ 
+    <div class="col-sm-6 col-lg-5 col-xl-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+
+            {% ctrl_label "race" "By Race" "font_strong" %}  <br>
+
+            <div class="inner_margin2 format_frame" style="margin-bottom: 0px;">
+                <div class="display_table">
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "levelEff1" "Level" %} 
+                    </div>
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "xpTotal1" "XP Total" %}
+                    </div>
+                </div>
+                <div style="margin: 0 6px 6px 6px;" comment="no inner padding">
+                    <table id="encMonst1_table" class="row-border" 
+                        style="border: 1px solid black; background: white;">
+                    </table>
+                </div>
+            </div>
+
+            <div class="inner_margin2 format_frame" style="margin-bottom: 0px;">
+                <div class="display_table">
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "levelEff2" "Level" %} 
+                    </div>
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "xpTotal2" "XP Total" %}
+                    </div>
+                </div>
+                <div style="margin: 0 6px 6px 6px;" comment="no inner padding">
+                    <table id="encMonst2_table" class="row-border" 
+                        style="border: 1px solid black; background: white;">
+                    </table>
+                </div>
+           </div>
+
+        </div>
+    </div>
+    
+    <div class="col-sm-6 col-lg-5 col-xl-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+
+            {% ctrl_label "race" "By Ally Group" "font_strong" %}  <br>
+
+            <div class="inner_margin2 format_frame" style="margin-bottom: 0px;">
+                <div class="display_table">
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "levelEff3" "Level" %} 
+                    </div>
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "xpTotal3" "XP Total" %}
+                    </div>
+                </div>
+                <div style="margin: 0 6px 6px 6px;" comment="no inner padding">
+                    <table id="encMonst3_table" class="row-border" 
+                        style="border: 1px solid black; background: white;">
+                    </table>
+                </div>
+            </div>
+
+            <div class="inner_margin2 format_frame" style="margin-bottom: 0px;">
+                <div class="display_table">
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "levelEff4" "Level" %} 
+                    </div>
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "xpTotal4" "XP Total" %}
+                    </div>
+                </div>
+                <div style="margin: 0 6px 6px 6px;" comment="no inner padding">
+                    <table id="encMonst4_table" class="row-border" 
+                        style="border: 1px solid black; background: white;">
+                    </table>
+                </div>
+           </div>
+
+        </div>
+    </div>
+      
+    <div class="col-sm-6 col-lg-5 col-xl-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+
+            {% ctrl_label "race" "By Habitat" "font_strong" %}  <br>
+
+            <div class="inner_margin2 format_frame" style="margin-bottom: 0px;">
+                <div class="display_table">
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "levelEff5" "Level" %} 
+                    </div>
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "xpTotal5" "XP Total" %}
+                    </div>
+                </div>
+                <div style="margin: 0 6px 6px 6px;" comment="no inner padding">
+                    <table id="encMonst5_table" class="row-border" 
+                        style="border: 1px solid black; background: white;">
+                    </table>
+                </div>
+            </div>
+
+            <div class="inner_margin2 format_frame" style="margin-bottom: 0px;">
+                <div class="display_table">
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "levelEff6" "Level" %} 
+                    </div>
+                    <div class="display_cellM" style="width: 180px;">
+                        {% ctrl_listing "xpTotal6" "XP Total" %}
+                    </div>
+                </div>
+                <div style="margin: 0 6px 6px 6px;" comment="no inner padding">
+                    <table id="encMonst6_table" class="row-border" 
+                        style="border: 1px solid black; background: white;">
+                    </table>
+                </div>
+           </div>
+
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-5 col-xl-3">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="display_block">
+                {% ctrl_listing "primary" "Random Primary" %} 
+            </div>
+            <div class="display_block">
+                {% ctrl_listing "targetxp" "Target XP" %}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<br>
+<div id="tables_section" class="row">
+
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Algorithm Tables</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "reports" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-8 col-xl-6">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_table "primaries" False False "Possible Primaries" %}
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <br>
+            {% ctrl_table "secRace" False False "Possible Secondaries by Race" %}
+            <br>
+            {% ctrl_table "secAlly" False False "Possible Secondaries by Ally" %}
+            <br>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+    // required config
+    
+    var options_ls = ["4", "5", "6", "7", "8"];
+    $.each(options_ls, function(key, value) {
+        $("#chars_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    for (var v = 1; v <= 30; v++) {
+        $("#level_select").append($('<option>', {value : v }).text(v));
+    }
+    
+    var options_ls = ["Nat Srf", "Nat Und", "Fwd Srf", "Fwd Und", "Shf Srf", "Shf Und", "ElC", "Ast"];
+    $.each(options_ls, function(key, value) {
+        $("#habitat_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    // optional config
+    
+    var options_ls = ["Any", "Natural, Fey, Shadow", "Immortal, Elemental, Aberrant",
+                      "Natural", "Fey", "Shadow", "Immortal", "Elemental", "Aberrant"];
+    $.each(options_ls, function(key, value) {
+        $("#origin_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    var options_ls = ["Any", "Humanoid", "Beast", "MBeast", "Animate"];
+    $.each(options_ls, function(key, value) {
+        $("#type_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    var options_ls = ["Any", "Elite, Solo", "Solo", "Elite", "Minion"];
+    $.each(options_ls, function(key, value) {
+        $("#threat_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    var options_ls = $.parseJSON('{{ allyGroups | escapejs }}');          // cl(options_ls);
+    $.each(options_ls, function(key, value) {
+        $("#allyGroup_select").append($('<option>', {value : key }).text(value));
+    });
+   
+    // others
+
+
+    $("#generate_button").click(function() {
+        DisplayEncounters();
+    });
+    
+});
+
+
+function DisplayEncounters()
+{    
+    $("body").css("cursor", "wait");
+    $('#primaries_table').html("No primaries.");
+    
+    var chars = $('#chars_select option:selected').text();
+    var level = $('#level_select option:selected').text();
+    var habitat = $('#habitat_select option:selected').text();
+    var allyGroup = $('#allyGroup_select option:selected').text();
+    var origin = $('#origin_select option:selected').text();
+    var type = $('#type_select option:selected').text();
+    var threat = $('#threat_select option:selected').text();
+    
+    $.ajax({
+        url: '/dnd4e/db_report/encounter/',
+        data : {'chars': chars, 'level': level, 'habitat': habitat,
+                'allyGroup': allyGroup, 'origin': origin, 'type': type, 'threat': threat },
+        success: function(p_data) {      cl(p_data);
+            
+            if ($.isEmptyObject(p_data.primary))
+            {
+                cl("empty");
+                $('#primary_listing').text("No monster found.");
+                $('#targetxp_listing').text("");
+                $('body').css('cursor', 'default');
+                return;
+            }
+
+
+            var fullT = JSONtoFullTable(p_data.primaries);
+            SetDataTable('#primaries_table', fullT, p_data.colFormat);
+            
+            var primaryText = p_data.primary.Race + " (" + p_data.primary.Class;
+            primaryText += " " + p_data.primary.Level;
+            if (p_data.primary.Threat) 
+                primaryText += " " + p_data.primary.Threat;
+            primaryText += ")";
+            $('#primary_listing').text(primaryText);
+
+            var txpText = "{0} (level {1}) x {2} PCs = {3}".format(
+                            p_data.levelXP, level, chars, p_data.targetXP);
+            $('#targetxp_listing').text(txpText);
+            
+
+            if (p_data.secRace.length != 0) {
+                var fullT = JSONtoFullTable(p_data.secRace);
+                SetDataTable('#secRace_table', fullT, p_data.colFormat);
+            }
+            else {
+                $('#secRace_table').html("No racial monsters available.");
+            }
+            
+            if (p_data.secAlly.length != 0) {
+                var fullT = JSONtoFullTable(p_data.secAlly);
+                SetDataTable('#secAlly_table', fullT, p_data.colFormat);
+            }
+            else {
+                $('#secAlly_table').html("No allied monsters available.");
+            }
+            
+            //var fullT = JSONtoFullTable(p_data.secHabt);
+            //SetDataTableDeluxe('#secHabt_table', fullT, p_data.colFormat);
+            
+            
+            DisplayEncounter('1', p_data.enc1);
+            DisplayEncounter('2', p_data.enc2);
+            DisplayEncounter('3', p_data.enc3);
+            DisplayEncounter('4', p_data.enc4);
+            DisplayEncounter('5', p_data.enc5);
+            DisplayEncounter('6', p_data.enc6);
+            
+            function DisplayEncounter(no, enc) {
+                $('#levelEff' + no + '_listing').text(enc.levelEff);
+                $('#xpTotal' + no + '_listing').text(enc.xpTotal);
+                var jMonst = [];
+                $.each(enc.monsters, function(idx, val) {
+                    var newRow = {};
+                    newRow['Race'] = val['Race'];
+                    if (val['SubRace'])
+                           newRow['Race'] += " (" + val['SubRace'] + ")";
+                    newRow['Profile'] = val['Class'].substring(0,3) + " " + val['Level'] + " " + val['Threat'];
+                    newRow['Quant'] = val['Quant'];
+                    newRow['Book'] = val['Book'];
+                    jMonst.push(newRow);
+                });
+                var fullT = JSONtoFullTable(jMonst);
+                SetDataTable('#encMonst' + no + '_table', fullT, p_data.encColFormat);
+            }
+            
+        }, 
+        error: function(p_err) {
+            // client error
+            if (p_err.status >= 400 & p_err.status <= 499) 
+                $('#config_status').text(p_err.responseJSON);
+            // server error
+            else
+                ErrorToStatus(p_err.responseText, "DisplayEncounters()", '#config_status');
+        },
+        complete: function() {
+            $('body').css('cursor', 'default');
+        }
+    });
+}
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

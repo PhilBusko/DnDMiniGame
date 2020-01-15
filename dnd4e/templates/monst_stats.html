@@ -1,0 +1,90 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Monster Statistics</span>
+        </div>
+    </div>
+</div>
+
+
+<div id="tables_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Distributions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "stats" %}</div>
+    </div>
+
+    <div class="col-sm-3 col-lg-2">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="display_block">
+                {% ctrl_listing "mtct" "Monster Count" "0" %}
+            </div>
+            <div class="display_block">
+                {% ctrl_listing "rcct" "Race Count" "0" %}
+            </div>
+            <br>
+            {% ctrl_table "byrole" False False "By Role" %}
+        </div>
+    </div>
+    <div class="col-sm-3 col-lg-2">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_table "bylevel" False False "By Level" %}
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_table "races" False False "Races" %}
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+    $('#mtct_listing').text('{{ monstCnt }}');
+    $('#rcct_listing').text('{{ raceCnt }}');
+
+    var jData = $.parseJSON('{{ byRole }}');  
+    var fullT = JObjToFullTable(jData);
+    var transT = TransposeFullTable(fullT);
+    SetVerticalTable('#byrole_table', transT);
+    
+    var jData = $.parseJSON('{{ byLevel }}');  
+    var fullT = JSONtoFullTable(jData['data']);
+    SetDataTable('#bylevel_table', fullT, jData['colFormat']);
+    
+    var jData = $.parseJSON('{{ raceList | escapejs }}');           //cl(jData);
+    var fullT = JSONtoFullTable(jData['data']);
+    SetDataTable('#races_table', fullT, jData['colFormat']);    
+    
+});
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

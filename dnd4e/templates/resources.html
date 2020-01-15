@@ -1,0 +1,100 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">MGX Resources</span>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="pcs_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Player Characters</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "section" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_linkA "phb1" "/static/resources/MGX1 - House Rules.pdf" "House Rules" True %}
+            {% ctrl_linkA "phb1" "/static/resources/MGX1 - New Feats.xlsx" "New Feats (Excel)" True %}
+            {% ctrl_linkA "phb1" "/static/resources/MGX2 - StoryTelling System.pdf" "StoryTelling System" True %}
+            {% ctrl_linkA "phb1" "/static/resources/MGX2 - Level Lookup Table.pdf" "Level Lookup Table" True %}
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_linkA "phb1" "/static/resources/PC Character Sheet.pdf" "Character Sheet" True %}
+            {% ctrl_linkA "phb1" "/static/resources/PC Party Calendar.xlsx" "Party Calendar" True %}
+            {% ctrl_linkA "phb1" "/static/resources/PC Weekly Roster.pdf" "Weekly Roster" True %}
+            {% ctrl_linkA "phb1" "/static/resources/General Cards.pdf" "General Cards" True %}
+            {% ctrl_linkA "phb1" "/static/resources/PHB1 Power Cards.pdf" "PHB1 Power Cards" True %}
+        </div>
+    </div>
+
+</div>
+
+
+<br>
+<div id="DM_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Dungeon Master</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "section" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_linkA "phb1" "/static/resources/MGX3 - World Builder's Guide.pdf" "World Builder's Guide" True %}
+            {% ctrl_linkA "phb1" "/static/resources/MGX3 - Map Legend.pdf" "WBG Map Legend" True %}
+            {% ctrl_linkA "phb1" "/static/resources/MGX3 - Alpha World Map.pdf" "Alpha World Map" True %}
+            {% ctrl_linkA "phb1" "/static/resources/DM Combat Encounter.pdf" "Combat Encounter" True %}
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+
+});
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

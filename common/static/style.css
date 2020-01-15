@@ -1,0 +1,226 @@
+/******************************************************************************
+NAVIGATION
+******************************************************************************/
+
+
+
+/******************************************************************************
+FORMAT GRID
+******************************************************************************/
+
+
+.outer_padding1 {
+    padding: 8px 8px 8px 8px;      /* T R B L */
+}
+
+.inner_margin1 {
+    margin: 8px;
+    display: inline-block;  /* prevent margin from collapsing */
+}
+
+.outer_padding2 {
+    padding: 4px;
+}
+
+.inner_margin2 {
+    margin: 4px;
+    display: inline-block;  /* prevent margin from collapsing */
+}
+
+
+
+.format_title {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.format_section {
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.format_separator {
+    padding: 8px 4px 0px 4px;
+}
+
+
+
+.format_padding {
+    padding: 4px;
+}
+
+.format_margin {
+    margin: 4px;
+}
+
+.format_frame {
+    border-width: 4px;
+    border-style: ridge;
+}
+
+
+.display_table {
+    display: table;
+    border-collapse: collapse;
+}
+
+.display_row {
+    display: table-row;
+}
+
+.display_cellM {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/******************************************************************************
+FORMAT CUSTOM
+******************************************************************************/
+
+.format_center {
+    text-align: center;  /* works for block formatting context */
+    margin: auto;        /* works for position relative, etc */
+}
+
+.format_cpointer {
+    cursor: pointer;
+}
+
+.format_fixline {
+    /* used in jQuery DataTable */
+    white-space: nowrap;
+}
+
+.format_outline {
+    border: 1px solid black;    
+}
+
+
+/******************************************************************************
+FONTS
+******************************************************************************/
+
+.font_default {
+    font-size: 16px;
+}
+
+.font_title {
+    font-size: 38px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.font_section {
+    font-size: 22px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.font_strong {
+    /* column title */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.font_small {
+    font-size: 14px;
+}
+
+.font_bold {
+    /* used in jQuery DataTable */
+    font-weight: bold; 
+}
+
+
+.font_link {
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.list_bullet {
+    margin: 0px;
+    list-style-type: disc;
+    padding: 2px;
+    padding-left: 30px;
+}
+
+
+
+
+
+/******************************************************************************
+DRAWINGS
+******************************************************************************/
+
+.image_actualSize {
+    max-width: 90%;
+    max-height: 1080px;
+}
+
+.image_smallSize {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+
+/******************************************************************************
+JQUERY OVERRIDES
+******************************************************************************/
+
+.noCloseButton .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.accumulatorStyles {
+    background: limegreen !important;
+    border: 0px solid black !important;
+    margin: 0px !important;
+}
+
+.jqueryUI_tooltip {
+    font-family: Impact !important;
+    font-size: 16px !important;
+}
+
+.fa-input {
+    font-family: FontAwesome, Impact;
+}
+
+.fc-today-button {
+    display: none;
+}
+
+.fc-toolbar {
+    margin-bottom: 8px !important;
+    font-size: 18px !important;
+}
+
+.ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    /* jquery-ui, sets font of form.label in template */
+    font-family: Impact !important;
+    font-size: 16px !important;
+}
+
+
+/******************************************************************************
+BOOTSTRAP OVERRIDES
+******************************************************************************/
+
+hr {    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+label {
+    font-weight: inherit;
+}
+
+
+/******************************************************************************
+END OF FILE
+******************************************************************************/

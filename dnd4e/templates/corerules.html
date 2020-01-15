@@ -1,0 +1,107 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Core Rules</span>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="rulebooks_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Rule Books</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "section" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_linkA "phb1" "/static/resources/Player's Handbook 1.pdf" "Player's Handbook" True %}
+            {% ctrl_linkA "phb2" "/static/resources/Player's Handbook 2.pdf" "Player's Handbook 2" True %}
+            {% ctrl_linkA "phb3" "/static/resources/Player's Handbook 3.pdf" "Player's Handbook 3" True %}
+            {% ctrl_linkA "pw1" "/static/resources/Class - Martial Power.pdf" "Martial Power" True %}
+            {% ctrl_linkA "pw2" "/static/resources/Class - Divine Power.pdf" "Divine Power" True %}
+            {% ctrl_linkA "pw3" "/static/resources/Class - Arcane Power.pdf" "Arcane Power" True %}
+            {% ctrl_linkA "pw4" "/static/resources/Class - Primal Power.pdf" "Primal Power" True %}
+            {% ctrl_linkA "pw5" "/static/resources/Class - Psionic Power.pdf" "Psionic Power" True %}
+            {% ctrl_linkA "avv1" "/static/resources/Equipment - Adventurer's Vault 1.pdf" "Adventurer's Vault 1" True %}
+            {% ctrl_linkA "avv2" "/static/resources/Equipment - Adventurer's Vault 2.pdf" "Adventurer's Vault 2" True %}
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_linkA "dmg" "/static/resources/Dungeon Master's Guide.pdf" "Dungeon Master's Guide" True %}
+            {% ctrl_linkA "mm1" "/static/resources/Monster Manual 1.pdf" "Monster Manual 1" True %}
+            {% ctrl_linkA "mm2" "/static/resources/Monster Manual 2.pdf" "Monster Manual 2" True %}
+            {% ctrl_linkA "mm3" "/static/resources/Monster Manual 3.pdf" "Monster Manual 3" True %}
+            {% ctrl_linkA "mv1" "/static/resources/Monster Vault.pdf" "Monster Vault" True %}
+            {% ctrl_linkA "mv2" "/static/resources/Monster Vault TNV.pdf" "Monster Vault: TNV" True %}
+        </div>
+    </div>
+
+</div>
+
+
+<br>
+<div id="extras_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Extras</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "section" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_linkA "phb1" "/static/resources/Update 2010-07.pdf" "Errata" True %}
+            {% ctrl_linkA "phb1" "http://dnd4.wikia.com/wiki/List_of_products" "All Products" True %}
+            {% ctrl_linkA "phb1" "https://box1055.bluehost.com/~ddmguil1/" "DDM Guild" True %}
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+    
+
+});
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

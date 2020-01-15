@@ -1,0 +1,778 @@
+,,,,,,,,,,
+,Race,SubRace,Book,Origin,Type,Int,Levels,Habitat,Social,Ally Groups
+,,,,,,,,,,
+,aboleth,,MM 8,a,m,,17b 17a 18ce 16km,"sh ug, ec",primitive,hunter_xeno
+,angel,,MM 14,i,h,,8s 11sm,fw sf,urban,celestial
+,angel,,MM 14,i,h,,15k 14s ,,,
+,angel,,MM 14,i,h,,21sm,"fw sf, as",urban,celestial
+,angel,,MM 14,i,h,,16sm 19be,,,
+,angel,,MM2 8,i,h,,22c 22a 23km,as,urban,celestial
+,angel,,MVL 13,i,h,,14s 15k ,fw sf,urban,celestial
+,angel,,MVL 13,i,h,,16sm 19be,"fw sf, as",urban,celestial
+,ankheg,,MM2 11,n,b,,3ue 1bm,"nt sf, nt ug",primal,animal_vermin
+,ape,,MM3 10,n,b,,4k 5b 6s,nt sf,primal,animal_mammal
+,apocalypse spell,,MM3 12,i,a,,26s 30b,as,primal,"godsend, construct"
+,apocalypse spell,,MM3 12,n,a,,27k,"as, ec",primal,"godsend, construct"
+,apocalypse spell,,MM3 12,f,a,,28sm,as,primal,"godsend, construct"
+,apocalypse spell,,MM3 12,e,a,,28a,ec,primal,"godsend, construct"
+,arcanian,,MM3 16,n,h,,8a 10c,"nt sf, sh sf",undead,undead_hubris
+,arcanian,,MM3 16,n,h,,19a,"sh sf, ec",undead,undead_hubris
+,"archon, earth",,MM2 14,e,h,,14c,sh sf,urban,primordial
+,"archon, earth",,MM2 14,e,h,,16s 17b,"sh sf, ec",urban,primordial
+,"archon, earth",,MVL 18,e,h,,12b ,sh sf,urban,primordial
+,"archon, fire",,MM 18,e,h,,12b ,sh sf,urban,primordial
+,"archon, fire",,MM 18,e,h,,19s 20a,"sh sf, ec",urban,primordial
+,"archon, fire",,MVL 18,e,h,,13k,sh sf,urban,primordial
+,"archon, ice",,MM 18,e,h,,16a 19s 20c,"sh sf, ec",urban,primordial
+,"archon, ice",,MVL 19,e,h,,13s,sh sf,urban,primordial
+,"archon, storm",,MM2 16,e,h,,17s 18k 21a,"sh sf, ec",urban,primordial
+,"archon, water",,MM2 18,e,h,,13b,sh sf,urban,primordial
+,"archon, water",,MM2 18,e,h,,15k 16c,"sh sf, ec",urban,primordial
+,"archon, water",,MVL 19,e,h,,14c,sh sf,urban,primordial
+,azer,,MM 22,e,h,,17km 14s 15b 17c 17s,ec,civilized,primordial
+,giant ant,,MM2 12,n,b,,1km 2k 3s 4k 5ce,"nt sf, nt ug",primal,animal_vermin
+,astral stalker,abomination,MM 10,i,h,,22ue,as,primal,godsend
+,atropal,abomination,MM 10,i,m,,28be,as,primal,undead_hubris
+,blood fiend,abomination,MM 10,e,h,,23s,ec,primal,godsend
+,phane,abomination,MM 10,i,m,,26ce,as,primal,godsend
+,tarrasque,abomination,MM 10,e,m,,30bs,"sh sf, sh ug, ec",unique,godsend
+,balhannoth,,MM 24,a,m,,13ue,"nt ug, sh ug",primal,hunter_xeno
+,banderhobb,,MM3 18,s,h,,16s 17k 18b,"sh sf, sh ug",primal,monstrous
+,banshrae,,MM 25,f,h,,11a 12k,"nt sf, fw sf, al ug",urban,monstrous_fey
+,barghest,,MM2 20,n,h,,4b 7c,nt sf,urban,lycan
+,basilisk,,MVL 21,n,b,,10s 10a 11c 12c 13a,nt sf,primal,animal_reptile
+,bat,,MM 27,s,b,,3u,"nt sf, nt ug",primal,animal_raptor
+,bat,,MM 27,e,b,,5k,"nt sf, sh sf",primal,animal_raptor
+,battlebriar,,MM 28,n,a,,14c ,"nt sf, fw sf",primal,plant
+,battlebriar,,MM 28,e,a,,28be,ec,primal,plant
+,bear,,MM 29,n,b,,6be 11be,nt sf,primal,animal_mammal
+,beetle,,MM 30,n,b,,1b 5c,"nt sf, nt ug",primal,animal_vermin
+,beetle,,MM 31,s,b,,8s,"nt ug, sh sf, sh ug",primal,animal_vermin
+,behemoth,,MM 31,n,b,,7s,nt sf,primal,animal_reptile
+,behemoth,,MM 31,n,b,,9b,nt sf,primal,animal_reptile
+,behemoth,,MM3 20,n,b,,6s 7k,nt sf,primal,animal_reptile
+,behemoth,,MM3 20,n,b,,9be,nt sf,primal,animal_reptile
+,behir,,MM2 22,n,m,,14ss 8ss,"nt sf, nt ug, fw sf, fw ug",primal,hunter
+,"behir, stormsteed",,MM2 22,n,m,,24s,ec,primal,hunter
+,beholder,,MVL 25,a,m,,5ae 9as ,al ug,primal,xenoform
+,beholder,,MM3 22,a,m,,12ue 15am ,al ug,primal,xenoform
+,beholder,,MM 32,a,m,,13ae,al ug,primal,xenoform
+,beholder,,MM2 24,a,m,,14ae,al ug,primal,xenoform
+,beholder,,MM3 22,a,m,,18ce,"fw ug, sh ug, as, ec",primal,undead_hubris
+,beholder,,MVL 25,a,m,,19as,"fw ug, sh ug, as, ec",primal,xenoform
+,beholder,,MM2 24,a,m,,25ae 29as,"as, ec",primal,xenoform
+,berbalang,,MM 34,i,h,,10ks,"nt sf, sh sf",urban,monstrous
+,boar,,MM 35,n,b,,6b,nt sf,primal,animal_mammal
+,boar,,MM 35,f,b,,15b,fw sf,primal,animal_mammal
+,bodak,,MM 36,s,h,,16u 18s,"sh sf, sh ug",undead,undead_roamer
+,boneclaw,,MM 37,s,a,,14s,"sh sf, sh ug",urban,undead_denizen
+,bulette,,MVL 29,n,b,2,7u,nt sf,primal,hunter
+,bulette,,MVL 29,n,b,2,9ke,nt sf,primal,hunter
+,bulette,,MVL 29,n,b,5,18ke,fw sf,primal,hunter
+,,,,,,,,,,
+,bullywug,,MM2 28,n,h,,1b 2k 3bm 3a,nt sf,primitive,"bullywug_civ, beastmen, deepdive"
+,bullywug,crocodile,MM 45,n,b,,4s,nt sf,primitive,"bullywug_civ, beastmen, deepdive"
+,,,,,,,,,,
+,cambion,,MM 29,i,h,,8b,"al sf, al ug",urban,"devil, plane_touched"
+,cambion,,MM 29,i,h,,18a,"fw sf, sh sf",urban,devil
+,cambion,,MM3 24,i,h,,9k 10c 12se,al sf,urban,"devil, plane_touched"
+,carrion crawler,,MVL 32,a,b,2,5k 7s ,"sh sf, sh ug, nt ug",primal,hunter_xeno
+,carrion crawler,,MVL 32,a,b,4,15s 17se,"sh sf, sh ug, ec",primal,hunter_xeno
+,catoblepas,,MM3 27,s,b,,10ce,"nt sf, sh sf",primal,hunter
+,catoblepas,,MM3 27,s,b,,18ce,"sh sf, ec",primal,hunter
+,cave fisher,,MM3 28,n,b,,2bm 3u 3a 4am,nt ug,primal,hunter
+,centaur,,MM2 30,f,h,,12a 12b 13c,"nt sf, fw sf",primitive,"centaur_civ, light_fey"
+,centaur,,MM2 30,f,h,,18s 25s,"fw sf, as",urban,mercenary
+,centipede,,MM2 33,n,b,,2b 4k,"nt sf, nt ug",primal,animal_vermin
+,chaos shard,,MM2 34,e,m,7,4a ,,,hunter_elem
+,chaos shard,,MM2 34,e,m,7,8a 12a,"sh sf, sh ug",primal,hunter_elem
+,chaos shard,,MM2 34,e,m,7,16a,"sh sf, sh ug, ec",primal,hunter_elem
+,chimera,,MM 41,n,m,,15be,"nt sf, fw sf",primal,animal_magical
+,chitine,,MM3 30,n,h,,5bm 5b 5a 6k 6c 8c,"nt ug, fw sf, fw ug",primitive,animal_vermin
+,choker,,MM 42,n,h,,4u,nt sf,primal,hunter
+,choker,,MM 42,f,h,,12u,"nt sf, fw sf",primal,hunter
+,chuul,,MM 43,a,m,,10s ,"nt ug, sh ug",primal,hunter_xeno
+,chuul,,MM 43,a,m,,23se,"sh ug, ec",primal,hunter_xeno
+,cloaker,,MM3 34,a,m,,12u,"nt sf, nt ug, fw ug",primal,hunter_xeno
+,cloaker,,MM3 34,a,m,,18c,"fw sf, fw ug, ec",primal,hunter_xeno
+,cockatrice,,MM2 36,n,b,,5k,"nt sf, fw sf",primal,animal_raptor
+,colossus,,MM 44,i,a,,29be,"as, ec",urban,"godsend, construct"
+,colossus,,MM2 37,e,a,,28be,"as, ec",urban,"godsend, construct"
+,couatl,,MM2 38,i,m,,18a 15ce,"fw sf, as",primal,celestial
+,craud,,MM3 36,n,b,,3k 4b 5s,nt sf,primal,animal_vermin
+,crocodile,,MM 45,n,b,,4s,nt sf,primal,animal_reptile
+,crocodile,,MM 45,f,b,,10se,"nt sf, fw sf",primal,animal_reptile
+,cyclops,,MM 46,f,h,10,14sm 16sm 14k 16s ,,,
+,cyclops,,MM 46,f,h,10,14a 17k 17a,"fw sf, as",civilized,dark_fey
+,cyclops,,MVL 36,f,h,10,14b 14bm 14k 16s,"fw sf, as",civilized,dark_fey
+,cyclops,,MM2 40,f,h,10,21s,as,urban,
+,dark one,,MM 49,s,h,,4k,"nt sf, nt ug",urban,dark_fey
+,dark one,,MM 49,s,h,,10u,"al sf, al ug",urban,dark_fey
+,dark one,,MM3 38,s,h,,4s,"nt sf, nt ug",urban,dark_fey
+,dark one,,MM3 38,s,h,,5a 6c,"al sf, al ug",urban,dark_fey
+,darkmantle,,MM2 41,s,m,,8u,"nt ug, fw sf, fw ug",primal,hunter
+,death knight,,MVL 42,n,h,,17se 18ke,"sh sf, sh ug, ec",undead,undead_hubris
+,death knight,,MM 50,n,h,,25se,"as, ec",undead,undead_hubris
+,demogorgon,,MM2 42,e,h,,34cs,ec,unique,"demon, godsend"
+,"demogorgon, aspect",,MM2 42,e,h,,25ce,ec,unique,"demon, godsend"
+,"demogorgon, cultist",human,MM2 48,n,h,,6k 8c 8a 7b,nt sf,urban,"demon, cultist"
+,"demogorgon, dagon",,MM2 42,e,m,,32ss,ec,unique,"demon, godsend"
+,"demogorgon, kazuul",,MM2 42,e,h,,28se,ec,unique,"demon, godsend"
+,"demogorgon, thrarak",,MM2 42,e,h,,26be,ec,unique,"demon, godsend"
+,destrachan,,MM 59,a,m,,9a 15a,al ug,primal,hunter_xeno
+,deva,,MM2 62,i,h,,11s 14k,"nt sf, fw sf",urban,celestial
+,"deva, fallen",,MM2 62,i,h,,26a,as,urban,
+,devourer,,MM 68,s,h,,11se 12c,"nt sf, nt ug, sh sf, sh ug",undead,undead
+,devourer,,MM 68,s,h,,20se,"sh sf, sh ug, as",undead,undead
+,dim. marauder,,MM2 69,a,m,,4u,nt sf,urban,hunter_xeno
+,direguard,,MM2 70,n,h,,8ae 11k,"nt sf, sh sf",undead,undead_denizen
+,displacer beast,,MVL 58,f,m,,9k 11b 13ke,"nt sf, fw sf",primal,animal_magical
+,djinn,,MM2 71,e,h,,20a 22k 24s 25c,ec,primal,primordial
+,doppleganger,,MVL 61,n,h,,3k,nt sf,urban,dark_fey
+,doppleganger,,MVL 62,n,h,,11u,"nt sf, sh sf",urban,dark_fey
+,doppleganger,,MVL 62,n,h,,19u,"fw sf, sh sf",urban,dark_fey
+,dracolich,,MVL 72,n,m,,12cs,"fw sf, sh sf",primal,undead_hubris
+,dracolich,,MM 72,n,m,,18cs,"fw sf, sh sf, as, ec",primal,undead_hubris
+,dracolich,,MVL 79,n,m,,22cs,"ec, as",primal,undead_hubris
+,dracolich,,MM 72,n,m,,29cs,"ec, as",primal,undead_hubris
+,dragonborn,,MVL 80,n,h,,2k 5s,nt sf,urban,"dragon, mercenary"
+,dragonborn,,MM 86,n,h,,10s 13k,al sf,urban,"dragon, mercenary"
+,dragonborn,,MM 86,n,h,,26s,"as, ec",urban,"dragon, mercenary"
+,dragonspawn,,MM 88,n,b,,12a,"al sf, al ug",urban,dragon
+,dragonspawn,,MM 88,n,b,,16u,"al sf, al ug, ec, as",urban,dragon
+,dragonspawn,,MM 88,n,h,,22b,"ec, as",urban,dragon
+,drake,,MM 90,n,b,,1k 2s ,nt sf,primal,animal_reptile
+,drake,,MVL 82,n,b,,2b,nt sf,primal,animal_reptile
+,drake,,MVL 84,n,b,,3a 3u 4s 5b 6k,nt sf,primal,animal_reptile
+,drake,,MM2 88,n,b,,10k ,nt sf,primal,animal_reptile
+,drake,,MM2 88,n,b,,18ce,fw sf,primal,animal_magical
+,dread warrior,,MM3 74,n,h,,3s ,nt sf,undead,undead_denizen
+,dread warrior,,MM3 74,n,h,,5k 6a 7s,"nt sf, sh sf",undead,undead_denizen
+,drider,,MVL 87,f,h,,14b 14s 14k,"fw ug, sh ug",urban,
+,dryad,,MVL 91,f,h,,5u 7k 8c 15km,fw sf,primal,"light_fey, plant"
+,dryad,,MM 96,f,h,,9k 13ce,fw sf,primal,"light_fey, plant"
+,,,,,,,,,,
+,derro,,MM3 48,n,h,,13a 14bm 14k 15u 15s 16c 16b,"nt ug, sh ug",primitive,derro_civ
+,derro,bulette,MM 38,n,b,,18ke,"nt ug, sh ug",primitive,derro_civ
+,,,,,,,,,,
+,drakkoth,,MM2 90,n,h,,13k 15be 16a,"nt sf, fw sf",primitive,"drakkoth_civ, pact"
+,drakkoth,dragonspawn,MM 88,n,b,,12a,"nt sf, fw sf",primitive,"drakkoth_civ, pact"
+,drakkoth,dragonspawn,MM 88,n,b,,16u,"nt sf, fw sf",primitive,"drakkoth_civ, pact"
+,,,,,,,,,,
+,drow,,MM 94,f,h,,11u 13a 13ke 15c,"nt ug, fw ug, sh ug",civilized,"drow_civ, deep_pact"
+,drow,drider,MM 93,f,h,,14b 14s,"nt ug, fw ug, sh ug",civilized,"drow_civ, deep_pact"
+,drow,spider,MM2 189,e,b,,11ce 10u,"nt ug, fw ug, sh ug",civilized,"drow_civ, deep_pact"
+,drow,spider,MM2 189,e,b,,15ue,"nt ug, fw ug, sh ug",civilized,"drow_civ, deep_pact"
+,,,,,,,,,,
+,drow2,,MM3 76,f,h,,23b 24u 25a 25k 27ce,as,civilized,drow2_civ
+,drow2,,MM3 76,f,m,,24u,as,urban,drow2_civ
+,,,,,,,,,,
+,duergar,,MVL 94,n,h,,4u 4s 5a ,"nt sf, nt ug",civilized,duergar_civ
+,duergar,,MM2 92,n,h,,5c 6b,"nt sf, nt ug",civilized,duergar_civ
+,duergar,howler,MM3 110,e,m,,9cm 13k ,"nt sf, nt ug",civilized,duergar_civ
+,duergar,,MM2 93,n,h,,11u 12a 14c,"nt sf, nt ug",civilized,duergar_civ
+,duergar,,MM2 93,n,h,,13s ,"nt sf, nt ug",urban,
+,duergar,,MVL 99,e,m,,17c 18sm 20ke,"sh sf, sh ug",urban,mercenary
+,,,,,,,,,,
+,dwarf,,MVL 100,n,h,,1am 1s ,,,
+,dwarf,,MM 97,n,h,,4a,nt sf,civilized,"dwarf_civ, alliance"
+,dwarf,,MM 97,n,h,,5s,nt sf,civilized,"dwarf_civ, alliance"
+,dwarf,warforged,MM 261,n,h,,4s 6s,nt sf,civilized,"dwarf_civ, alliance"
+,dwarf,warforged,MM2 206,n,h,,6a 7b 8c,nt sf,civilized,"dwarf_civ, alliance"
+,dwarf,hound,MM 160,e,b,,7b,nt sf,civilized,"dwarf_civ, alliance"
+,dwarf,hound,MM 160,s,b,,6k,nt sf,civilized,"dwarf_civ, alliance"
+,,,,,,,,,,
+,demon,,MM2 51,e,h,12,2b 5k 5a 5sm,,,
+,demon,,MM 53,e,m,12,6b,,primal,demon
+,demon,,MM3 46,e,h,12,7c,"sh sf, sh ug",primal,demon
+,demon,,MM2 51,e,h,12,7k 8u,"sh sf, sh ug",primal,demon
+,demon,,MM 52,e,b,12,8b 11s ,"sh sf, sh ug",primal,demon
+,demon,,MVL 44,e,h,12,12bm 13k 14b ,"sh sf, sh ug",,
+,demon,,MM3 40,e,h,12,13k,"sh sf, sh ug",primal,demon
+,demon,,MM2 51,e,m,12,12a 12c 14b 15ae 15km ,,primal,demon
+,demon,,MM 53,e,m,12,15c,"sh sf, sh ug, ec",primal,demon
+,demon,,MM3 42,e,h,12,16b,"sh sf, sh ug, ec",primal,demon
+,demon,,MM2 51,e,m,12,17c 18bs 20u ,"sh sf, sh ug, ec",primal,demon
+,demon,,MM 52,e,b,12,19be,,primal,demon
+,demon,,MM3 47,e,h,12,22c,ec,primal,demon
+,demon,,MM2 51,e,m,12,26c 22k,ec,primal,demon
+,demon,,MM 52,e,h,12,23be ,,primal,demon
+,demon,,MVL 48,e,h,12,22b 24ke 27be,ec,primal,demon
+,demon,,MM3 41,e,h,12,28s 29se 20b 23c,ec,primal,demon
+,,,,,,,,,,
+,devil,,MVL 51,i,h,,3u,"nt sf, nt ug",civilized,dark_fey
+,devil,,MM 61,i,h,,6sm 6k 9c,"fw sf, fw ug",civilized,devil
+,devil,,MVL 51,i,h,,9c 11k 11sm ,"fw sf, fw ug",civilized,devil
+,devil,,MVL 54,i,h,,16sm 20s ,"fw sf, fw ug, as",civilized,devil
+,devil,,MVL 55,i,h,,26se,as,civilized,devil
+,devil,,MM3 63,i,h,,7c,"fw sf, fw ug",civilized,devil
+,devil,,MM3 60,i,h,,11b,"fw sf, fw ug",civilized,devil
+,devil,,MM 61,i,h,,11k 11sm 13s ,,civilized,devil
+,devil,,MM2 64,i,h,,12be 13s 13sm 14c ,"fw sf, fw ug",civilized,devil
+,devil,,MM3 57,i,h,,15s,"fw sf, fw ug, as",civilized,devil
+,devil,,MM2 64,i,h,,15a 16s,"fw sf, fw ug, as",civilized,devil
+,devil,,MM 61,i,h,,16sm 17c ,,civilized,devil
+,devil,,MM3 59,i,h,,16c,"fw sf, fw ug, as",civilized,devil
+,devil,,MM3 61,i,h,,16u 18k,"fw sf, fw ug, as",civilized,devil
+,devil,,MM3 58,i,m,,19km 23k,as,civilized,devil
+,devil,,MM 61,i,h,,21sm 22b,as,civilized,devil
+,devil,,MM2 64,i,h,,24u ,,civilized,devil
+,devil,,MM3 52,i,h,,22c 24um 25sm 26am ,as,civilized,devil
+,devil,,MM3 52,i,h,,27sm 28bm 29cm 29ce,as,civilized,devil
+,,,,,,,,,,
+,"dragon, black",,MVL 68,n,m,,4us,nt sf,primal,dragon
+,"dragon, black",,MM 75,n,m,,11us,al sf,primal,dragon
+,"dragon, black",,MVL 74,n,m,,18us,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, black",,MM 75,n,m,,26us,"ec, as",primal,dragon
+,"dragon, blue",,MVL 70,n,m,,6as,al sf,primal,dragon
+,"dragon, blue",,MM 78,n,m,,13as,al sf,primal,dragon
+,"dragon, blue",,MVL 76,n,m,,20as,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, blue",,MM 78,n,m,,28as,"ec, as",primal,dragon
+,"dragon, green",,MVL 69,n,m,,5ks ,al sf,primal,dragon
+,"dragon, green",,MM 80,n,m,,12cs ,al sf,primal,dragon
+,"dragon, green",,MVL 75,n,m,,19cs,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, green",,MM 80,n,m,,27cs,"ec, as",primal,dragon
+,"dragon, red",,MVL 71,n,m,,7ss ,al sf,primal,dragon
+,"dragon, red",,MM 82,n,m,,15ss ,al sf,primal,dragon
+,"dragon, red",,MVL 77,n,m,,22ss,"ec, as",primal,dragon
+,"dragon, red",,MM 82,n,m,,30ss,"ec, as",primal,dragon
+,"dragon, white",,MVL 64,n,m,,1bs,nt sf,primal,dragon
+,"dragon, white",,MVL 67,n,m,,3bs ,nt sf,primal,dragon
+,"dragon, white",,MM 84,n,m,,9bs ,al sf,primal,dragon
+,"dragon, white",,MVL 73,n,m,,17bs,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, white",,MM 84,n,m,,24bs,"ec, as",primal,dragon
+,,,,,,,,,,
+,"dragon, adamantine",,MM2 75,n,m,,7ss 14ss,al sf,primal,dragon
+,"dragon, adamantine",,MM2 75,n,m,,21ss 28ss,"ec, as",primal,dragon
+,"dragon, copper",,MM2 78,n,m,,6ks 13ks,al sf,primal,dragon
+,"dragon, copper",,MM2 78,n,m,,20ks,"sh sf, fw sf, ec, as",primal,dragon
+,"dragon, copper",,MM2 78,n,m,,27ks,"ec, as",primal,dragon
+,"dragon, gold",,MM2 80,n,m,,9cs ,al sf,primal,dragon
+,"dragon, gold",,MM2 80,n,m,, 17cs ,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, gold",,MM2 80,n,m,,24cs 30cs,"ec, as",primal,dragon
+,"dragon, iron",,MM2 83,n,m,,5us 11us,al sf,primal,dragon
+,"dragon, iron",,MM2 83,n,m,, 19us ,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, iron",,MM2 83,n,m,, 26us,"ec, as",primal,dragon
+,"dragon, silver",,MM2 86,n,m,,8bs,al sf,primal,dragon
+,"dragon, silver",,MM2 86,n,m,,15bs,"al sf, ec, as",primal,dragon
+,"dragon, silver",,MM2 86,n,m,,22bs 29bs,"ec, as",primal,dragon
+,,,,,,,,,,
+,"dragon, blizzard",,MM3 66,n,m,,2c,,primal,dragon
+,"dragon, blizzard",,MM3 66,n,m,,7ce 12ce,al sf,primal,dragon
+,"dragon, blizzard",,MM3 66,n,m,,17ce,"sh sf, fw sf, ec, as",primal,dragon
+,"dragon, blizzard",,MM3 66,n,m,,22ce,"ec, as",primal,dragon
+,"dragon, earthqk",,MM3 69,n,m,,4s ,,primal,dragon
+,"dragon, earthqk",,MM3 69,n,m,,9se 14se,"nt sf, fw sf, sh sf",primal,dragon
+,"dragon, earthqk",,MM3 69,n,m,,19se,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, earthqk",,MM3 69,n,m,, 24se,"ec, as",primal,dragon
+,"dragon, volcanic",,MM3 72,n,m,,5b,,primal,dragon
+,"dragon, volcanic",,MM3 72,n,m,,10be,al sf,primal,dragon
+,"dragon, volcanic",,MM3 72,n,m,,15be,"al sf, ec, as",primal,dragon
+,"dragon, volcanic",,MM3 72,n,m,,20be,"fw sf, sh sf, ec, as",primal,dragon
+,"dragon, volcanic",,MM3 72,n,m,,25be,"ec, as",primal,dragon
+,,,,,,,,,,
+,efreet,,MVL 105,e,h,,22s 23a 23k ,ec,urban,primordial
+last MVL,efreet,,MM 98,e,h,,25c 28s,ec,urban,primordial
+,eidolon,,MM 101,n,a,,13c,al sf,urban,construct
+,eladrin,,MM2 96,f,h,,17u,"fw sf, as",urban,mercenary
+,eladrin,,MM 103,f,h,,19c,"fw sf, as",urban,mercenary
+,eladrin,,MM 103,f,h,,21a,"fw sf, as",urban,mercenary
+,,,,,,,,,,
+,eladrin,,MM2 96,f,h,,5a,"nt sf, fw sf",civilized,"eladrin_civ, alliance"
+,eladrin,,MM 103,f,h,,7s,"nt sf, fw sf",civilized,"eladrin_civ, alliance"
+,eladrin,,MM 103,f,h,,8c,"nt sf, fw sf",civilized,"eladrin_civ, alliance"
+,eladrin,,MM2 96,f,h,,11k,"nt sf, fw sf",civilized,"eladrin_civ, alliance"
+,eladrin,deva,MM2 62,i,h,,11s 14k,"nt sf, fw sf",civilized,eladrin_civ
+,eladrin,displacer beast,MM 70,f,m,,9k 13ke,"nt sf, fw sf",civilized,eladrin_civ
+,,,,,,,,,,
+,elemental,,MM2 98,e,m,,3k 5s 4b,,,
+,elemental,,MM3 80,e,m,,1u 2s 1k 1c,,,
+,elemental,,MM2 98,e,m,,6u 10b 7k 9u,"sh sf, sh ug",primal,hunter_elem
+,elemental,,MM 104,e,m,,11k ,"sh sf, sh ug",primal,hunter_elem
+,elemental,,MM2 98,e,m,,14b 13km 14a 13c 12c,"sh sf, sh ug",primal,hunter_elem
+,elemental,,MM3 80,e,m,,10u 11s 11k 11c,"sh sf, sh ug",primal,hunter_elem
+,elemental,,MM 104,e,m,,18s,"sh sf, sh ug, ec",primal,hunter_elem
+,elemental,,MM 104,e,m,,23c 26ae,ec,primal,hunter_elem
+,elemental,,MM2 98,e,m,,23km ,ec,primal,hunter_elem
+,elemental,,MM3 80,e,m,,20u 22s 21k 20c,ec,primal,hunter_elem
+,,,,,,,,,,
+,elf,,MM 106,f,h,,2k,nt sf,civilized,"elf_civ, alliance"
+,elf,,MM 106,f,h,,2a,nt sf,civilized,"elf_civ, alliance"
+,elf,skulk,MM3 176,f,h,,3c 3u 5s,nt sf,civilized,"elf_civ, alliance"
+,elf,half-elf,MM2 138,n,h,,6k 7c,nt sf,civilized,"elf_civ, alliance"
+,elf,tiger,MM2 199,n,b,,6k 8s,nt sf,civilized,"elf_civ, alliance"
+,,,,,,,,,,
+,ettercap,,MM 107,n,h,,4s 5c,nt sf,primal,animal_vermin
+,ettin,,MM 108,n,h,,10se 12ce,"nt sf, sh sf",urban,monstrous 
+,fell taint,,MM2 104,a,m,4,1s 1a 2c 4c,nt sf,primal,hunter_xeno
+,fey lingerer,,MM2 106,f,h,,16se 16u 18ae 18u,"fw sf, fw ug, sh sf, sh ug",undead,undead_roamer
+,firbolg,,MM2 108,f,h,,11s 12k 14c 15be 16ue,fw sf,primitive,
+,firbolg,,MM2 108,f,h,,22ke,"fw sf, as",urban,
+,flameskull,,MM 109,n,a,,8a,al sf,urban,undead_denizen
+,flameskull,,MM 109,n,a,,24a,"ec, as",urban,undead_denizen
+,,,,,,,,,,
+,fomorian,,MM 110,f,h,,17se 19ce,"fw ug, as",civilized,monstrous_fey
+,fomorian,,MM2 112,f,h,,16ce 17ue 18ke 20ae 22be,"fw ug, as",civilized,monstrous_fey
+,,,,,,,,,,
+,forsaken,,MM3 84,n,h,,26a 27k 27sm 28b 29c,as,primitive,
+,frog,,MM3 90,n,b,,1b 2c 2k,"nt sf, nt ug",primal,animal_reptile
+,,,,,,,,,,
+,foulspawn,,MM 113,a,h,,8k 12b,"nt ug, sh sf, sh ug",urban,
+,foulspawn,,MM 113,a,h,,8c 9s 11a,"nt ug, sh sf, sh ug",primitive,"foulspawn_civ, deep_pact"
+,foulspawn,,MM3 88,a,h,,7km 10c 12c,"nt ug, sh sf, sh ug",primitive,"foulspawn_civ, deep_pact"
+,foulspawn,umber hulk,MM 256,n,m,,12se,"nt ug, sh sf, sh ug",primitive,"foulspawn_civ, deep_pact"
+,,,,,,,,,,
+,,,,,,,,,,
+,galeb duhr,,MM 114,e,h,12,8a 11c,"nt ug, sh ug",primitive,"galebdhur_civ, primordial"
+,galeb duhr,elemental,MM2 98,e,m,,7k 9u,"nt ug, sh ug",primitive,galebdhur_civ
+,galeb duhr,elemental,MM2 98,e,m,, 10b,"nt ug, sh ug",primitive,galebdhur_civ
+,galeb duhr,elemental,MM2 98,e,m,,12c,"nt ug, sh ug",primitive,galebdhur_civ
+,,,,,,,,,,
+,gargoyle,,MM 115,e,h,5,9u,"al sf, al ug",primal,hunter_elem
+,gargoyle,,MM 115,e,h,5,18u,"sh sf, sh ug, fw sf, fw ug, as, ec",primal,hunter_elem
+,gargoyle,,MM3 91,e,h,5,7k 8b 8s 8sm,"al sf, al ug",primal,hunter_elem
+,,,,,,,,,,
+,genasi,,MM2 116,e,h,,11b 8c 7k 10s,"nt sf, fw sf",primitive,"genasi_civ, plane_touched"
+,genasi,phoelarch,MM2 174,n,h,,12a 12k ,"nt sf, fw sf",primitive,"genasi_civ, plane_touched"
+,genasi,,MM2 116,e,h,,18ke ,"fw sf, sh sf, as, ec",urban,mercenary
+,,,,,,,,,,
+,ghost,,MM 116,s,h,,4s,"nt sf, nt ug",undead,undead_roamer
+,ghost,,MM 116,s,h,,8u 12c,"al sf, al ug",undead,undead_roamer
+,ghost,,MM 116,s,h,,21c,"as, ec",undead,undead_roamer
+,ghost legionnaire,,MM2 119,n,h,,13s,nt sf,primal,undead_roamer
+,ghoul,,MM 118,n,h,,5s 13sm,"nt sf, nt ug, sh sf, sh ug",undead,undead_roamer
+,ghoul,,MM 119,e,h,,16k 18sm,"sh sf, sh ug, ec",undead,undead_roamer
+,ghoul,,MM 119,e,h,,24sm,ec,undead,undead_roamer
+,ghoul,,MM3 94,n,h,,4u ,"nt sf, nt ug",undead,undead_roamer
+,ghoul,,MM3 94,n,h,,6c 6b,"nt sf, nt ug, sh sf, sh ug",undead,undead_roamer
+,gibbering beast,,MM 126,a,m,,10c,"nt ug, sh ug",primal,hunter_xeno
+,gibbering beast,,MM 126,a,m,,18c,sh ug,primal,hunter_xeno
+,gibbering beast,,MM 126,a,m,,27cs,ec,primal,hunter_xeno
+,girallon,,MM3 102,n,b,,12b,"nt sf, fw sf",primal,animal_mammal
+,girallon,,MM3 102,n,b,,17b,"fw sf, as",primal,animal_mammal
+,girallon,,MM3 102,n,b,,22b,as,primal,animal_mammal
+,githyanki,,MM 128,n,h,,12s 13a 15ke,fw sf,civilized,plane_touched
+,githzerai,,MM 130,n,h,,11s 13ce 14a,sh sf,civilized,plane_touched
+,,,,,,,,,,
+,gnoll,,MM 132,n,h,,6b,nt sf,urban,beastmen
+,gnoll,,MM2 126,n,h,,7k,nt sf,urban,beastmen
+,gnoll,,MM2 126,n,h,,5b,nt sf,urban,beastmen
+,gnoll,,MM 132,n,h,,5a 6k 8b,nt sf,primitive,"gnoll_civ, beastmen"
+,gnoll,,MM2 126,n,h,,7b,nt sf,primitive,"gnoll_civ, beastmen"
+,gnoll,,MM3 104,n,h,,5u 6s 7ce 7sm,nt sf,primitive,"gnoll_civ, beastmen"
+,gnoll,hyena,MM 166,e,b,,7b,nt sf,primitive,gnoll_civ
+,,,,,,,,,,
+,gnome,,MM 134,f,h,,2u,nt sf,primitive,"gnome_civ, alliance"
+,gnome,,MM 134,f,h,,3c,nt sf,primitive,"gnome_civ, alliance"
+,gnome,,MM2 128,f,h,,5u,"nt sf, fw sf",primitive,"gnome_civ, alliance"
+,gnome,,MM2 128,f,h,,8a,"nt sf, fw sf",primitive,"gnome_civ, alliance"
+,gnome,,MM2 128,f,h,,9k,"nt sf, fw sf",primitive,"gnome_civ, alliance"
+,gnome,nymph,MM3 150,f,h,,5c 8k,"nt sf, fw sf",primitive,gnome_civ
+,,,,,,,,,,
+,golem,,MM 142,n,a,,12be 17se,,urban,construct
+,golem,,MM2 133,n,a,,12be 22se 15be 20se 26se,,urban,construct
+,,,,,,,,,,
+,goliath,,MM2 136,n,h,,7a,"nt sf, sh sf",civilized,"goliath_civ, alliance"
+,goliath,,MM2 136,n,h,,9s,"nt sf, sh sf",civilized,"goliath_civ, alliance"
+,goliath,shardmind,MM3 174,n,h,,6s 8c 10u,"nt sf, sh sf",civilized,goliath_civ
+,goliath,griffon,MM 146,n,b,,5k 5s 7b,"nt sf, sh sf",civilized,goliath_civ
+,,,,,,,,,,
+,gorgon,,MM 143,e,b,,11s ,sh sf,primal,hunter_elem
+,gorgon,,MM 143,e,b,,26k,ec,primal,hunter_elem
+,gray render,,MM2 137,n,h,,19be 22se,"fw sf, fw ug, sh sf, sh ug, as, ec",primal,hunter
+,grell,,MM 144,a,m,,7se 11ce,al ug,primal,hunter_xeno
+,gremlin,,MM3 106,f,h,,5c 7u,"nt sf, nt ug, fw sf, fw ug",urban,dark_fey
+,gremlin,,MM3 106,f,h,,17c 17cm,"fw sf, fw ug, as",urban,
+,grick,,MM 145,a,b,,7b 9b,"nt ug, fw ug",primal,hunter_xeno
+,griffon,,MM 146,n,b,,5k 5s 7b,nt sf,primal,animal_mammal
+,griffon,,MM 146,e,b,,20k,"fw sf, sh sf",primal,celestial
+,grimlock,,MM 148,n,h,7,14km 11k 13b,"nt ug, sh ug",primal,hunter
+,grimlock,,MM 148,n,h,7,22km,ec,primal,hunter
+,guardian,,MM 149,n,a,,14s 17c,,urban,construct
+,,,,,,,,,,
+,"giant, hill",,MM 122,n,h,,13b ,nt sf,primitive,monstrous
+,"giant, hill",,MM3 100,n,h,,11b 12a 14k,nt sf,primitive,monstrous
+,"giant, hill",ettin,MM 108,n,h,,10se 12ce,nt sf,primitive,
+,,,,,,,,,,
+,"giant, death",,MM 121,s,h,,22b 25be,"ec, as",primitive,monstrous_fey
+,"giant, eldritch",,MM2 120,f,h,,18k 21ke,"fw sf, as",primitive,monstrous_fey
+,,,,,,,,,,
+,"giant, earth",,MM 122,e,h,,13b,sh sf,primitive,primordial
+,"giant, earth",,MM 122,e,h,,16be,"sh sf, ec",primitive,primordial
+,"giant, fire",,MM 123,e,h,,18s 18a 21se,"sh sf, ec",primitive,primordial
+,"giant, fire",,MM3 96,e,h,,17c 18k 19u,"sh sf, ec",primitive,primordial
+,"giant, storm",,MM 124,e,h,,24c 27ce,ec,primitive,primordial
+,"giant, frost",,MM2 122,e,h,,17b 19c 20be,"sh sf, ec",primitive,primordial
+,"giant, frost",,MM3 98,e,h,,16k 18s 20c,"sh sf, ec",primitive,primordial
+,"giant, stone",,MM2 124,e,h,,14s,sh sf,primitive,primordial
+,"giant, stone",,MM2 124,e,h,,16c 18se,"sh sf, ec",primitive,primordial
+,,,,,,,,,,
+,bugbear,,MM 135,n,h,,5b 6u,nt sf,primitive,"bugbear_civ, horde"
+,bugbear,,MM2 130,n,h,,6k ,nt sf,primitive,"bugbear_civ, horde"
+,bugbear,half-orc,MM2 140,n,h,,6c 7b,nt sf,primitive,"bugbear_civ, horde"
+,,,,,,,,,,
+,goblin,,MM2 131,n,h,,1c,nt sf,primitive,horde
+,goblin,,MM 135,n,h,,1k,nt sf,primitive,horde
+,goblin,,MM 135,n,h,,3b,nt sf,primitive,horde
+,"goblin, lolth",,MM2 132,n,h,,12km,,,
+,goblin,,MM 135,n,h,,1km,nt sf,primitive,"horde, goblin_civ"
+,goblin,,MM 135,n,h,,1u,nt sf,primitive,"horde, goblin_civ"
+,goblin,,MM 135,n,h,,2a ,nt sf,primitive,"horde, goblin_civ"
+,goblin,,MM 135,n,h,,3c ,nt sf,primitive,"horde, goblin_civ"
+,goblin,,MM2 131,n,h,,3s,nt sf,primitive,"horde, goblin_civ"
+,goblin,,MM 135,n,h,,4ce,nt sf,primitive,"horde, goblin_civ"
+,goblin,spider,MM 246,n,b,,4k ,nt sf,primitive,"horde, goblin_civ"
+,,,,,,,,,,
+,hobgoblin,,MM 135,n,h,,3sm 8sm 3a 3s 3c 5s 8se,nt sf,civilized,"hobgoblin_civ, horde"
+,hobgoblin,,MM2 132,n,h,,6ce,nt sf,civilized,"hobgoblin_civ, horde"
+,hobgoblin,dim. marauder,MM2 69,a,m,,4u,nt sf,civilized,"hobgoblin_civ, horde"
+,,,,,,,,,,
+,hag,,MM 150,f,h,,7c 10k 14u,"nt sf, fw sf",primal,monstrous
+,hag,,MM 150,f,h,,18s,"fw sf, as",primal,monstrous
+,hag,,MM3 108,f,h,,11c,"nt sf, fw sf",primal,monstrous
+,hag,,MM3 108,f,h,,19c,"fw sf, as",primal,monstrous
+,hag,,MM3 108,f,h,,27c,as,primal,monstrous
+,half-elf,,MM2 138,n,h,,6k 7c,nt sf,urban,mercenary
+,half-elf,,MM2 138,n,h,,24a,as,urban,mercenary
+,half-orc,,MM2 140,n,h,,5k 6c 7b,nt sf,urban,mercenary
+,,,,,,,,,,
+,halfling,,MM 152,n,h,,1a ,nt sf,primitive,"halfling_civ, alliance"
+,halfling,,MM 152,n,h,,2am,nt sf,primitive,"halfling_civ, alliance"
+,halfling,,MM 152,n,h,,2k,nt sf,primitive,"halfling_civ, alliance"
+,halfling,,MM 152,n,h,,6u,nt sf,primitive,"halfling_civ, alliance"
+,halfling,dark one,MM3 38,s,h,,4s,nt sf,primitive,"halfling_civ, alliance"
+,halfling,dark one,MM3 38,s,h,,5a,nt sf,primitive,"halfling_civ, alliance"
+,halfling,satyr,MM 228,f,h,,7k 8c,nt sf,primitive,"halfling_civ, alliance"
+,,,,,,,,,,
+,harpy,,MM 154,f,h,,6c 9s,"nt sf, fw sf",primal,monstrous_fey
+,hawk,,MM2 142,n,b,,1k,nt sf,primal,animal_raptor
+,hawk,,MM2 142,e,b,,7k,"nt sf, sh sf",primal,animal_raptor
+,helmed horror,,MM 155,e,a,,13s 18se,,urban,construct
+,homunculus,,MM 156,n,a,,2u 3s 6k,,urban,construct
+,homunculus,,MM2 143,n,a,,2k 4a,,urban,construct
+,hook horror,,MM 158,n,b,,13s,"nt ug, sh ug",primal,
+,horse,,MM 159,n,b,,1b 3b,nt sf,primal,animal_mammal
+,horse,celestial,MM 159,i,b,,10s,"nt sf, fw sf",urban,animal_mammal
+,hound,,MM 160,e,b,,7b,"nt sf, sh sf",primal,primordial
+,hound,,MM 160,s,b,,6k,"nt sf, sh sf",primal,animal_mammal
+,hound,,MM 160,e,b,,17b,sh sf,primal,primordial
+,hound,,MM 160,f,m,,21k,as,primal,
+,howler,,MM3 110,e,m,,9cm 13k ,"nt sf, sh sf",primal,animal_magical
+,howler,,MM3 110,e,m,,22u,ec,primal,
+,hydra,fen,MM 164,n,b,,12bs,al sf,primal,
+,hydra,mordant,MM 164,n,b,,18bs,"fw sf, sh sf, as, ec",primal,
+,hydra,primordial,MM 164,e,b,,25bs,ec,primal,
+,hydra,razor,MM2 150,n,b,,16bs 20bs,"fw sf, sh sf, as, ec",primal,
+,hydra,chaos,MM2 150,e,b,,22bs,ec,primal,
+,hyena,,MM 166,n,b,,2k,nt sf,primal,animal_mammal
+,hyena,cacklefiend,MM 166,e,b,,7b,"nt sf, sh sf",primal,animal_mammal
+,,,,,,,,,,
+,human,,MM 164,n,h,,2k,nt sf,urban,alliance
+,human,,MM 166,n,h,,4b,nt sf,urban,alliance
+,human,,MM 163,n,h,,7sm,nt sf,urban,alliance
+,human,,MM2 144,n,h,,7s,nt sf,urban,alliance
+,human,,MM2 151,n,h,,9k,nt sf,urban,alliance
+,human,,MM2 146,n,h,,14se,"nt sf, fw sf, sh sf",urban,mercenary
+,human,,MM2 140,n,h,,20a,"ec, as",urban,mercenary
+,human,,MM2 143,n,h,,20c,"ec, as",urban,mercenary
+,human,,MM2 141,n,h,,22u,"ec, as",urban,mercenary
+,human,,MM2 142,n,h,,23ke,"ec, as",urban,mercenary
+,,,,,,,,,,
+,human,,MM 162,n,h,,2sm ,nt sf,civilized,"human_civ, alliance"
+,human,,MM 165,n,h,,3s,nt sf,civilized,"human_civ, alliance"
+,human,,MM 162,n,h,,4a,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 150,n,h,,5c,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 148,n,h,,6k,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 149,n,h,,7ke,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 147,n,h,,7c,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 152,n,h,,8b,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 145,n,h,,9a,nt sf,civilized,"human_civ, alliance"
+,human,,MM2 152,n,h,,10s,nt sf,civilized,"human_civ, alliance"
+,human,horse,MM 159,n,b,,1b 3b,nt sf,civilized,"human_civ, alliance"
+,,,,,,,,,,
+,imix,,MM3 113,e,h,,32cs,ec,unique,godsend
+,imix cultist,,MM3 114,n,h,,5bm 6k 8s 7km 15a,"nt sf, sh sf",urban,cultist
+,imix cultist,,MM3 114,e,h,,20a 22c,ec,urban,cultist
+,intellect devourer,,MM3 118,a,m,,7u 14c ,"nt ug, sh ug",primal,hunter_xeno
+,intellect devourer,,MM3 118,a,m,,21c,ec,primal,hunter_xeno
+,jackalwere,,MM3 120,n,h,,3b 3sm 4c,nt sf,urban,lycan
+,,,,,,,,,,
+,kenku,,MM2 152,n,h,,3km 3k 4s 4u 5a 5ke,nt sf,primitive,"kenku_civ, beastmen"
+,kenku,hawk,MM2 142,e,b,,7k,nt sf,primitive,"kenku_civ, beastmen"
+,,,,,,,,,,
+,kobold,,MM 167,n,h,9,1a ,"nt sf, nt ug",urban,
+,kobold,,MM 167,n,h,9,1am 1k 2s 3a 4u,"nt sf, nt ug",primitive,"kobold_civ, beastmen"
+,kobold,drake,MM 90,n,b,9,2b,"nt sf, nt ug",primitive,"kobold_civ, beastmen"
+,kobold,drake,MM 90,n,b,9,3u 5b,"nt sf, nt ug",primitive,"kobold_civ, beastmen"
+,kobold,drake,MM2 88,n,b,9,4s,"nt sf, nt ug",primitive,"kobold_civ, beastmen"
+,,,,,,,,,,
+,kraken,,MM3 122,a,m,,10ss,al sf,primal,hunter_xeno
+,kraken,,MM3 122,a,m,,25cs,as,primal,hunter_xeno
+,krenshar,,MM2 155,n,b,,4c 5b,nt sf,primal,animal_mammal
+,kruthik,,MM 170,n,b,,2km 2b 4b,nt ug,primal,animal_vermin
+,,,,,,,,,,
+,kuo-toa,,MM 172,n,h,,16km 12k 14s 16k 16c,"nt ug, fw ug, sh ug",civilized,"kuo-toa_civ, beastmen"
+,kuo-toa,,MM3 124,n,h,,12km 14s 16k 15a,"nt ug, fw ug, sh ug",civilized,"kuo-toa_civ, beastmen"
+,kuo-toa,shark,MM2 182,n,b,,10b,"nt ug, fw ug, sh ug",civilized,kuo-toa_civ
+,,,,,,,,,,
+,lamia,,MM 174,f,m,,12ce,fw sf,primal,
+,larva mage,,MM 175,n,m,,21ae,"as, ec",undead,undead_hubris
+,lich,,MM 177,n,h,,14ce,"nt sf, nt ug, sh sf, sh ug",undead,undead_hubris
+,lich,,MM 177,n,h,,24ce,ec,undead,undead_hubris
+,,,,,,,,,,
+,lizardfolk,,MM2 156,n,h,,2s,nt sf,urban,
+,lizardfolk,,MM 178,n,h,,6b,nt sf,urban,
+,lizardfolk,,MM2 156,n,h,,2a 3u 3s,nt sf,primitive,"lizardfolk_civ, beastmen"
+,lizardfolk,,MM2 156,n,h,,2b,nt sf,primitive,"lizardfolk_civ, beastmen"
+,lizardfolk,,MM 178,n,h,,4k 5u 6c,nt sf,primitive,"lizardfolk_civ, beastmen"
+,lizardfolk,behemoth,MM 31,n,b,,7s,nt sf,primitive,"lizardfolk_civ, beastmen"
+,lizardfolk,behemoth,MM3 20,n,b,,7k,nt sf,primitive,"lizardfolk_civ, beastmen"
+,,,,,,,,,,
+,lolth,,MM3 126,i,h,,35us,ec,unique,godsend
+,lolth,aspect,MM3 126,i,m,,25ue,"as, ec",unique,drow2
+,lolth,eclavdra,MM3 126,f,h,,28se,as,unique,drow2
+,lycanthrope,,MM 180,n,h,,3k,nt sf,urban,lycan
+,lycanthrope,,MM 180,n,h,,8b,"nt sf, fw sf",urban,lycan
+,lycanthrope,,MM2 158,n,h,,6b 11ke 13be,"nt sf, fw sf",urban,lycan
+,magma beast,,MM 182,e,m ,3,4b,nt sf,primal,hunter_elem
+,magma beast,,MM 182,e,m ,3,10k,"nt sf, sh sf",primal,hunter_elem
+,magma beast,,MM 182,e,h,3,4a,nt sf,primal,hunter_elem
+,magma beast,,MM 182,e,h,3,13b,"nt sf, sh sf",primal,hunter_elem
+,mammoth,,MM2 161,e,b,,17b,"fw sf, sh sf",primal,animal_magical
+,manticore,,MM 184,n,m ,,10ke,al sf,primal,animal_magical
+,marut,,MM 185,i ,h,,21s 22ce,as,civilized,celestial
+,marut,,MM2 163,i ,h,,21k 21c 22b,as,civilized,celestial
+,meazel,,MM3 130,n,h,,11b 12a 13c,,,
+,medusa,,MM 186,n,h,,10ce 13se,nt sf,urban,monstrous_fey
+,medusa,,MM 186,n,h,, 18k,"fw sf, sh sf, as",urban,monstrous_fey
+,meenlock,,MM3 132,a,h,,9c 11u,"nt sf, nt ug, sh sf, sh ug",primal,hunter_xeno
+,mimic,,MM3 134,a,m,,8u,"nt sf, nt ug, sh sf, sh ug",primal,xenoform
+,mimic,,MM3 134,a,m,,16c 16um,"sh sf, sh ug",primal,xenoform
+,mind flayer,,MM 188,a,h,,14u 18ce,"fw ug, sh ug",civilized,monstrous
+,mind flayer,,MM3 136,a,h,,20c 21k 22b 23ce,"fw ug, sh ug, as",civilized,monstrous
+,,,,,,,,,,
+,minotaur,,MM3 140,n,h,, 13k ,"nt sf, sh sf",urban,beastmen
+,minotaur,,MM 190,n,h,,10s 13c 16b,"nt sf, sh sf",primitive,"minotaur_civ, beastmen"
+,minotaur,,MM3 140,n,h,,12b 14s 15u,"nt sf, sh sf",primitive,"minotaur_civ, beastmen"
+,minotaur,gorgon,MM 143,e,b,,11s ,"nt sf, sh sf",primitive,"minotaur_civ, beastmen"
+,,,,,,,,,,
+,mummy,,MM 192,n,h,,8b 13ce,"nt sf, nt ug, sh sf, sh ug",undead,undead_denizen
+,mummy,,MM 192,n,h,,21b,ec,undead,undead_denizen
+,,,,,,,,,,
+,myconid,,MM2 164,f,h,,3b 4c 4s,"nt ug, fw ug",primitive,"myconid_civ, plant"
+,myconid,frog,MM3 90,n,b,,1b 2c,"nt ug, fw ug",primitive,myconid_civ
+,,,,,,,,,,
+,naga,,MM 194,i,m,,12ae,"nt sf, nt ug, fw sf, fw ug",urban,
+,naga,,MM 194,i,m,,16ce,"nt sf, nt ug, fw sf, fw ug, as",urban,
+,naga,,MM 194,i,m,,21ce,as,urban,
+,naga,,MM 194,e,m,,25as,ec,urban,
+,nightmare,,MM 196,s,m,,13k,"nt sf, sh sf",primal,dark_fey
+,nightwalker,,MM 197,s,h,,20be,"sh sf, sh ug, ec",undead,undead_roamer
+,,,,,,,,,,
+,neogi,,MM2 166,a,m,,10c 10b 16c,"nt ug, fw ug",primitive,neogi_civ
+,neogi,meenlock,MM3 132,a,h,,9c 11u,"nt ug, fw ug",primitive,neogi_civ
+,,,,,,,,,,
+,nothic,,MM2 168,a,h,,15a ,"nt ug, sh ug",primal,xenoform
+,nothic,,MM2 168,a,h,,19c,"sh ug, ec",primal,xenoform
+,nothic,,MM2 168,a,h,,22u,ec,primal,xenoform
+,nagpa,,MM3 142,e,h,,9c 14a,"nt sf, sh sf",primal,
+,nerra,,MM3 145,i,h,,16u 18sm 19s 19c 20s 21b,"fw sf, as",primitive,
+,norker,,MM3 147,e,h,,12s 15bm 15k,sh sf,primitive,horde
+,nymph,,MM3 150,f,h,,5c 8k,"nt sf, fw sf",urban,light_fey
+,nymph,,MM3 150,f,h,,10s 15a,"nt sf, fw sf",urban,light_fey
+,nymph,,MM3 150,f,h,, 25c,as,urban,light_fey
+,,,,,,,,,,
+,ogre,,MM 198,n,h,,16sm,"nt sf, sh sf",urban,
+,ogre,,MM 198,n,h,,11be,"nt sf, sh sf",urban,
+,ogre,,MM 198,n,h,,8k ,"nt sf, sh sf",urban,
+,ogre,,MM 198,n,h,,11sm 8b ,"nt sf, sh sf",primitive,ogre_civ
+,ogre,,MM3 158,n,h,,8u 9s 11c,"nt sf, sh sf",primitive,ogre_civ
+,ogre,,MM3 158,n,h,,14s,"nt sf, sh sf",primitive,ogre_civ
+,ogre,carrion crawler,MM 40,a,b,,7c,"nt sf, sh sf",primitive,ogre_civ
+,ogre,oni,MM 200,n,h,,10ue,"nt sf, sh sf",primitive,ogre_civ
+,ogre,oni,MM2 170,n,h,,12be,"nt sf, sh sf",primitive,ogre_civ
+,,,,,,,,,,
+,oni,,MM 200,n,h,,8ce 10ue,"al sf, al ug",urban,monstrous
+,oni,,MM2 170,n,h,,7s 12be,"al sf, al ug",urban,monstrous
+,oni,,MM2 170,n,h,,22k,ec,urban,monstrous
+,ooze,,MM 202,n,b,,3be 5be,nt ug,primal,
+,ooze,,MM2 172,n,b,, 2k 4u,nt ug,primal,
+,ooze,,MM2 172,n,b,,8be 8bm,nt ug,primal,
+,aboleth,ooze,MM2 172,n,b,,18bm,"sh ug, ec",primal,deepdive
+,,,,,,,,,,
+,orc,,MM 203,n,h,,4sm 3k 4b 5c ,nt sf,civilized,"orc_civ, horde"
+,orc,,MM 203,n,h,,9sm 7be 8be,nt sf,civilized,"orc_civ, horde"
+,orc,wyvern,MM 268,n,b,,10k,nt sf,civilized,"orc_civ, horde"
+,,,,,,,,,,
+,orcus,,MM 206,e,h,,33bs 24be 27ke,ec,unique,
+,orcus,human,MM 209,n,h,,9c 7k,"nt sf, sh sf",urban,"demon, cultist"
+,orcus,human,MM 209,n,h,,21ce,ec,urban,"demon, cultist"
+,otyugh,,MM 211,n,b,,7s,"nt sf, nt ug",primal,hunter
+,owlbear,,MM 212,f,b,,8be 14ce,fw sf,primal,animal_magical
+,oblivion moss,,MM3 154,f,m,,12ce 12sm 12km 12am 13cm 12cm,"fw sf, fw ug",primal,plant
+,ogremoch,,MM3 160,e,h,,34ss,ec,unique,godsend
+,ogremoch,human,MM3 163,n,h,,8cm 9s ,nt sf,urban,cultist
+,ogremoch,human,MM3 163,n,h,, 15b 16c,sh sf,urban,cultist
+,ogremoch,human,MM3 163,n,h,,24s 24a,ec,urban,"cultist, godsend"
+,panther,,MM 213,f,b,,4k,nt sf,primal,animal_mammal
+,panther,,MM 213,s,b,,9u,"nt sf, sh sf",primal,animal_mammal
+,purple worm,,MM 214,n,b,,16ss,al ug,primal,
+,purple worm,,MM 214,n,b,,24ss,ec,primal,
+,phoelarch,,MM2 174,n,h,,12a 12k ,nt sf,urban,plane_touched
+,"phoelarch, phoera",,MM2 175,e,m,,12k,sh sf,urban,plane_touched
+,quickling,,MM 215,f,h,,9k 14u,"nt sf, fw sf",primal,dark_fey
+,rakshasa,,MM 216,n,h,,15s 15a 17k 19c,"fw sf, sh sf",primitive,beastmen
+,rakshasa,,MM 216,n,h,,24s,"as, ec",urban,mercenary
+,rat,,MM 219,n,b,,1km 1b 2k,"nt sf, nt ug",primal,animal_mammal
+,roc,,MM 220,n,b,,14ke,"nt sf, fw sf",primal,animal_raptor
+,roc,,MM 220,e,b,,19be,"sh sf, ec",primal,
+,roc,,MM 220,e,b,,22se,ec,primal,
+,roper,,MM 222,e,m,,14ce,"nt ug, sh ug",primal,hunter
+,rot harbinger,,MM 223,e,h,,20s 22a,ec,undead,undead_roamer
+,remorhaz,,MM2 176,e,b,,21be,ec,primal,
+,retriever,,MM2 177,e,a,,27s,ec,primal,
+,rust monster,,MM2 178,n,b,,6k 9s 11k,"nt sf, sh sf",primal,animal_vermin
+,rot grub,,MM3 166,n,b,,4b ,"nt sf, nt ug",primal,animal_vermin
+,rot grub,,MM3 166,n,b,,8k 10b,"nt sf, nt ug, sh sf, sh ug",primal,animal_vermin
+,,,,,,,,,,
+,sahuagin,,MM 224,n,h,,6km 6s 8a 10be,"nt sf, fw sf",civilized,"sahuagin_civ, beastmen"
+,sahuagin,craud,MM3 36,n,b,,3k 4b 5s,"nt sf, fw sf",civilized,sahuagin_civ
+,,,,,,,,,,
+,salamander,,MM 226,e,h,,14b 14k 15a 15c,sh sf,civilized,primordial
+,satyr,,MM 228,f,h,,7k 8c,"nt sf, fw sf",urban,light_fey
+,scarecrow,,MM3 168,f,a,,10bm 13s 13u,"nt sf, fw sf",urban,construct
+,scorpion,,MM 229,n,b,,1s,nt sf,primal,animal_vermin
+,scorpion,,MM 230,i,b,,13s,sh sf,primal,animal_vermin
+,secret of vecna,,MM3 170,n,h,,6c ,"nt sf, sh sf",urban,cultist
+,secret of vecna,,MM3 170,n,h,,18a 19k,"sh sf, ec",urban,cultist
+,,,,,,,,,,
+,shadar-kai,,MM 230,s,h,,6k 6u 7c 8s,sh sf,civilized,"shadar-kai_civ, mercenary"
+,shadar-kai,,MM2 180,s,h,,14c 14u 14a 15k,sh sf,civilized,"shadar-kai_civ, mercenary"
+,shadar-kai,worg,MM 265,s,m,,9b 16be,sh sf,civilized,"shadar-kai_civ, mercenary"
+,,,,,,,,,,
+,shadow,,MM3 172,s,h,,3u ,nt ug,urban,dark_fey
+,shadow,,MM3 172,s,h,,9a,"nt ug, sh sf, sh ug",urban,dark_fey
+,shadow,,MM3 173,s,h,,14u,"nt ug, sh sf, sh ug",urban,dark_fey
+,shambling mound,,MM 232,n,a,,9b 11ce,"nt sf, fw sf",primal,plant
+,shardmind,,MM3 174,i,h,13,6s 8c 10u,"fw sf, sh sf",urban,dark_fey
+,shark,,MM2 182,n,b,,10b,"nt sf, nt ug",primal,
+,shifter,,MM 233,n,h,,6s 7k,nt sf,urban,lycan
+,skeleton,,MM 234,n,a,,1am 3s,"nt sf, nt ug",urban,undead_denizen
+,skeleton,,MM 234,n,a,,5a 5b 10b,"nt sf, nt ug, sh sf, sh ug",urban,undead_denizen
+,skeleton,,MM2 183,n,a,, 3k,"nt sf, nt ug",urban,undead_denizen
+,skeleton,,MM2 183,n,a,,7s,"nt sf, nt ug, sh sf, sh ug",urban,undead_denizen
+,skulk,,MM3 176,n,h,,3c 3u 5s,nt sf,urban,dark_fey
+,skull lord,,MM 236,n,a,,10a,"nt sf, nt ug, sh sf, sh ug",urban,undead_hubris
+,slaad,,MM 238,e,h,,13k ,sh sf,primal,
+,slaad,,MM 238,e,h,,15s 17b 18c 20k,"sh sf, ec",primal,
+,slaad,,MM2 185,e,h,,9k,sh sf,primal,
+,slaad,,MM2 185,e,h,,17km,"sh sf, ec",primal,
+,slaad,,MM3 178,e,h,,19b 20c ,"sh sf, ec",primal,
+,slaughterstone,,MM2 186,n,a,,11be 18b 25s ,,urban,construct
+,snake,,MM 240,n,b,,5b 9s,nt sf,primal,animal_reptile
+,snake,,MM 240,e,b,,9a,sh sf,primal,animal_reptile
+,snake,,MM 240,s,b,,16k,sh sf,primal,animal_reptile
+,sorrowsworn,,MM 242,s,h,,25k 27s 27b 28u ,ec,primitive,
+,spawn of kyuss,,MM3 180,n,a,,13b 13bm 16a,"nt ug, sh sf, sh ug",undead,undead_roamer
+,specter,,MM 244,s,h,,4u ,"nt sf, nt ug",undead,undead_roamer
+,specter,,MM 244,s,h,,23u,ec,undead,undead_roamer
+,sphinx,,MM 245,i,m,,16se,"nt sf, fw sf, as",urban,celestial
+,sphinx,,MM2 188,i,m,,19b,"fw sf, as",urban,celestial
+,,,,,,,,,,
+,spider,,MM 246,n,b,,4k ,nt sf,primal,animal_vermin
+,spider,,MM 246,n,b,,7s,"nt sf, fw sf",primal,animal_vermin
+,spider,,MM 246,n,b,,10b,"nt sf, fw sf, nt ug, fw ug",primal,animal_vermin
+,spider,,MM 247,e,b,,14ce,"fw sf, fw ug",primal,animal_vermin
+,spider,,MM2 189,e,b,,8k,"nt sf, fw sf, sh sf",primal,animal_vermin
+,spider,,MM2 189,e,b,,11ce 10u,"al sf, al ug",primal,animal_vermin
+,spider,,MM2 189,e,b,,15ue,"sh sf, sh ug, ec",primal,animal_vermin
+,spider,,MM3 182,n,b,,2u 4km ,"nt sf, nt ug",primal,animal_vermin
+,spider,,MM3 182,f,b,,7c ,"nt sf, nt ug, fw sf, fw ug",primal,animal_vermin
+,spider,,MM3 182,e,b,,25b,ec,primal,
+,,,,,,,,,,
+,spriggan,,MM2 192,f,h,,8b 7k 6s 8a,"nt sf, fw sf",primitive,"spriggan_civ, pact, dark_fey"
+,spriggan,panther,MM 213,f,b,,4k,"nt sf, fw sf",primitive,"spriggan_civ, pact"
+,spriggan,panther,MM 213,s,b,,9u,"nt sf, fw sf",primitive,"spriggan_civ, pact"
+,,,,,,,,,,
+,sprite swarm,,MM2 194,f,h,,4c,nt sf,primal,monstrous_fey
+,star spawn,,MM2 195,a,h,10,15b 15c 17c,"sh sf, ec",primal,godsend
+,star spawn,,MM3 184,a,h,,26c 28c 29um,"ec, as",primal,godsend
+,star spawn,,MM3 184,a,a,,30ss,"ec, as",unique,godsend
+,steel predator,,MM2 198,i,a,,20se,as,urban,construct
+,stirge,,MM 248,n,b,,1u 7u ,nt sf,primal,animal_vermin
+,stirge,,MM 248,n,b,,12b,"nt sf, sh sf",primal,animal_vermin
+,su monster,,MM3 188,f,b,,10k 11s 12b,"fw sf, fw ug",primal,
+,swordwing,,MM 249,a,h,,25s 26k,"as, ec",primitive,
+,tiefling,,MM 250,n,h,,6a 7u,"nt sf, sh sf",urban,plane_touched
+,treant,,MM 251,f,m,,16ce,"nt sf, fw sf",primal,plant
+,treant,,MM 251,f,m,,19se,"fw sf, sh sf, ec",undead,undead_hubris
+,,,,,,,,,,
+,troglodyte,,MM 252,n,h,,12km,,,
+,troglodyte,,MM 252,n,h,,6s 7a 8c,"nt ug, sh ug",primitive,"troglodyte_civ, deep_pact"
+,troglodyte,,MM2 200,n,h,,7b 9a 9s,"nt ug, sh ug",primitive,"troglodyte_civ, deep_pact"
+,troglodyte,snake,MM 240,n,b,,5b ,"nt ug, sh ug",primitive,"troglodyte_civ, deep_pact"
+,,,,,,,,,,
+,troll,,MM 254,n,h,,9b 14s,"nt sf, sh sf",primal,monstrous
+,troll,,MM 254,n,h,,20be,"sh sf, ec",primal,monstrous
+,troll,,MM2 202,n,h,,10s 12b 14c,"nt sf, sh sf",primal,monstrous
+,tiger,,MM2 199,n,b,,6k 8s,"nt sf, fw sf",primal,animal_mammal
+,tanarukk,,MM3 190,e,h,,17k 18s 17a,"sh sf, sh ug, ec",urban,horde
+,,,,,,,,,,
+,thri-kreen,,MM3 192,n,h,,6u 7k 8c ,"nt sf, fw sf",primitive,"thri-kreen_civ, light_fey"
+,thri-kreen,ettercap,MM 107,n,h,,4s 5c,"nt sf, fw sf",primitive,thri-kreen_civ
+,thri-kreen,basilisk,MM 26,n,b,,10a ,"nt sf, fw sf",primitive,thri-kreen_civ
+,,,,,,,,,,
+,tulgar,,MM3 195,n,h,,22k 22bm 23u 23b 24c,ec,urban,
+,umber hulk,,MM 256,n,m,,12se,"nt ug, fw ug",primal,hunter
+,umber hulk,,MM 256,s,m,,17ss,"sh ug, fw ug, ec",primal,hunter
+,umber hulk,,MM3 198,n,m,,7b,"nt ug, fw ug",primal,hunter
+,umber hulk,,MM3 198,n,m,,15c,"nt ug, sh ug, ec",primal,hunter
+,umber hulk,,MM3 198,i,m,,17s,"fw ug, as",primal,hunter
+,unicorn,,MM 257,f,m,,9k 12ce,"nt sf, fw sf",primal,light_fey
+,vampire,,MM 258,n,h,,11ue 5km 10km,"nt sf, sh sf",urban,undead_hubris
+,vine horror,,MM 260,n,h,,5c 7a,"nt sf, fw sf",primal,plant
+,"vine, predatory",,MM2 204,n,b,,2s,"nt sf, nt ug",primal,plant
+,"vine, predatory",,MM2 204,n,b,,7s,"nt sf, fw sf, nt ug, fw ug",primal,plant
+,"vine, predatory",,MM2 204,f,b,,16ce,"fw sf, fw ug, as",primal,plant
+,,,,,,,,,,
+,verbeeg,,MM3 200,f,h,15,9k 11a 11c ,"nt sf, fw sf",primitive,"verbeeg_civ, dark_fey"
+,verbeeg,cambion,MM 29,i,h,,8b,"nt sf, fw sf",primitive,"verbeeg_civ, dark_fey"
+,verbeeg,cambion,MM3 24,i,h,,10c 12se,"nt sf, fw sf",primitive,"verbeeg_civ, dark_fey"
+,,,,,,,,,,
+,warforged,,MM 261,n,h,,4s 6s,nt sf,urban,"mercenary, construct"
+,warforged,,MM2 206,n,h,,6a 7b 8c,nt sf,urban,"mercenary, construct"
+,warforged,,MM2 206,n,h,,19se,"fw sf, sh sf",urban,"mercenary, construct"
+,wight,,MM 262,n,h,,4c 5k ,"nt sf, nt ug",urban,undead_roamer
+,wight,,MM 262,n,h,,9s 12s,"nt sf, nt ug, sh sf, sh ug",urban,undead_roamer
+,wight,,MM 262,n,h,,18b,"sh sf, sh ug, ec",urban,undead_roamer
+,,,,,,,,,,
+,wilden,,MM3 206,f,h,,2s 2u 4a,nt sf,primitive,"wilden_civ, mercenary"
+,wilden,vine horror,MM 260,n,h,,5c 7a,nt sf,primitive,"wilden_civ, mercenary"
+,,,,,,,,,,
+,will-o-wisp,,MM2 209,f,m,,10u,"nt sf, fw sf",primal,monstrous_fey
+,winter wolf,,MM2 210,n,m,,14k 16u,"nt sf, sh sf",primal,animal_magical
+,winter wolf,,MM2 210,e,m,,17ke 26ke,"sh sf, ec",primal,animal_magical
+,witherling,,MM2 212,n,a,,4k 5c 8b 9km,nt sf,undead,beastmen
+,wolf,,MM 264,n,b,,2k 5k,nt sf,primal,animal_mammal
+,wood woad,,MM2 214,f,h,,8s,"nt sf, fw sf",primal,
+,worg,,MM 265,n,m,,9b 16be,"nt sf, fw sf, sh sf",primal,animal_magical
+,wraith,,MM 266,s,h,,5u 6c ,"nt sf, sh sf",urban,undead_roamer
+,wraith,,MM 266,s,h,,17u,"sh sf, sh ug",urban,undead_roamer
+,wraith,,MM 266,s,h,,25u,ec,urban,undead_roamer
+,wyvern,,MM 268,n,b,,10k,nt sf,primal,
+,wyvern,,MM 268,n,b,,24k,as,primal,
+,weaver,,MM3 203,i,h,,28ae 26se 27ce 27ue,as,primitive,
+,xorn,,MM2 215,e,m,12,9k ,"nt ug, sh ug",primal,primordial
+,xorn,,MM2 215,e,m,,16k,"sh ug, ec",primal,primordial
+,xivort,,MM3 208,f,h,,1k 1a 1c 2a,,,
+,yeti,,MM3 210,n,b,,3s 4c 5k,nt sf,primal,
+,"yuan-ti, cultist",,MM 272,n,h,,7bm 12bm 8b 9u 11c,"nt sf, fw sf",urban,cultist
+,yuan-ti,,MM 269,n,h,,21ke,fw sf,primitive,
+,yuan-ti 2,,MM3 211,n,b,,26c 27s 26b 27a 28c 28u 26km 28k ,as,primitive,
+,,,,,,,,,,
+,yuan-ti,,MM 269,n,h,,13a 14s 15a 17c,fw sf,primitive,"yuan-ti_civ, beastmen"
+,yuan-ti,naga,MM 194,i,m,,12ae,fw sf,primitive,"yuan-ti_civ, beastmen"
+,yuan-ti,naga,MM 194,i,m,,16ce,fw sf,primitive,"yuan-ti_civ, beastmen"
+,,,,,,,,,,
+,zombie,,MM 274,n,a,,3bm 2b 3b 4a 4k,"nt sf, nt ug",undead,undead_roamer
+,zombie,,MM 274,n,a,,6s 8b,"nt sf, nt ug, sh sf, sh ug",undead,undead_roamer

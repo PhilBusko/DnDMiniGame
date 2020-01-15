@@ -1,0 +1,107 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Domain Races</span>
+        </div>
+    </div>
+</div>
+
+
+<div id="domains_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Domains</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "domains" %}</div>
+    </div>
+
+    <div class="col-sm-3">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="display_table">
+                <div class="display_row">
+                    {% ctrl_select "habitat" "Habitat" %}
+                </div>
+                <div class="display_row">
+                    {% ctrl_select "social" "Social" %}
+                </div>
+            </div>
+            {% ctrl_button "random" "Random Race" %}
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp format_center">
+            {% ctrl_table "habraces" %}
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+    
+    var options_ls = ["Nat Srf", "Nat Und", "Fwd Srf", "Fwd Und", "Shd Srf", "Shd Und", "ElC", "Ast"];
+    $.each(options_ls, function(key, value) {
+        $("#habitat_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    $("#random_button").click(function() {
+        DisplayRaces();
+    });
+    
+});
+
+
+function DisplayRaces()
+{    
+    $("body").css("cursor", "wait");
+    var habitat = $('#habitat_select').val();
+    
+    
+    $.ajax({
+        url: '/dnd4e/db_report/domainRaces/',
+        data: {'habitat': habitat},
+        success: function(p_data) {     cl(p_data);
+            
+            // display random race
+            
+            
+            var fullT = JSONtoFullTable(p_data.data);
+            SetDataTable('#habraces_table', fullT, p_data.colFormat);
+            
+        }, 
+        error: function(p_err) {
+            ErrorToStatus(p_err.responseText, "DisplayRaces()", '#domains_status');
+        },
+        complete: function() {
+            $('body').css('cursor', 'default');
+        }
+    });
+}
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

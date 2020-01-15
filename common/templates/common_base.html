@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+{% load utility_ttags %}
+{% load menu %}
+
+
+<html>
+    
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="{% static 'DataTables-1.10.10/media/js/jquery.dataTables.min.js' %}"></script>
+    <link   type="text/css" href="{% static 'DataTables-1.10.10/media/css/jquery.dataTables.min.css' %}" rel="stylesheet" />
+    <script type="text/javascript" src="{% static 'jquery-ui-1.11.4/jquery-ui.min.js' %}"></script>
+    <link   type="text/css" href="{% static 'jquery-ui-1.11.4/jquery-ui.min.css' %}" rel="stylesheet" />
+    <link   type="text/css" href="{% static 'font-awesome-4.6.3/css/font-awesome.min.css' %}" rel="stylesheet">
+    
+    <link   rel="stylesheet" type="text/css" href="{% static 'style.css' %}?{% now 'U' %}" /> 
+    <script type="text/javascript" src="{% static 'utility.js' %}?{% now 'U' %}"></script>
+    {% block exta_head %}
+    {% endblock %}
+</head>
+
+
+<body style="{% random_background %} min-width: 1024;">
+    
+    <div class="navigation">
+        
+        {% block menu %}
+        {% generate_menu %}
+        {% with menu=menus.main %}{% include "common_menu.html" %}{% endwith %}
+        {% endblock menu %}
+        
+    </div>
+    
+    <div class="nav_spacer">
+    </div>
+    
+    <div class="content">
+        {% block content %}
+        No content linked.
+        {% endblock content %}
+        
+        <div id="error_block">
+            {% ctrl_status "error" %}            
+        </div>
+        
+    </div>
+    
+    <!-- dialog window placeholder -->
+    
+    <div id="dialog_holder">
+    </div>
+    
+</body>
+
+</html>
+
+
+
+
+

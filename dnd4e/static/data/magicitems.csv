@@ -1,0 +1,44 @@
+name,slot,subslot,levels,book
+,,,,
+angelsteel armor,armor,chain,19 24 29,PHB1 227
+barkskin armor,armor,hide scale,5 10 15 20 15 30,PHB1 227
+battleforged armor,armor,plate,6 10 15 20 15 30,PHB1 227
+black iron armor,armor,scale plate,4 9 14 19 24 29,PHB1 227
+bloodcut armor,armor,leather hide,4 9 14 19 24 29,PHB1 227
+bloodthread armor,armor,cloth,5 10 15 20 25 30,PHB1 227
+curseforged armor,armor,chain scale,3 8 13 18 23 28,PHB1 227
+,,,,
+berseker weapon,weapon,"axe, heavy blade",10 15 20 25 30,PHB1 232
+dancing weapon,weapon,"heavy blade, light blade",20 25 30,PHB1 233
+dragonslayer weapon,weapon,any,9 14 19 24 29,PHB1 233
+,,,,
+magic holy symbol,implement,holy symbol,1 6 11 16 21 26,PHB1 236
+symbol of battle,implement,holy symbol,5 10 15 20 15 30,PHB1 237
+symbol of hope,implement,holy symbol,3 8 13 18 23 28,PHB1 237
+symbol of life,implement,holy symbol,2 7 12 17 22 27,PHB1 237
+symbol of power,implement,holy symbol,7 12 17 22 27,PHB1 237
+symbol of radiance,implement,holy symbol,23 28,PHB1 237
+symbol of victory,implement,holy symbol,9 14 19 24 29,PHB1 238
+magic orb,implement,orb,1 6 11 16 21 26,PHB1 238
+orb of drastic resolutions,implement,orb,13 18 23 28,PHB1 238
+orb of indisputable gravity,implement,orb,7 12 17 22 27,PHB1 238
+orb of inevitable continuance,implement,orb,3 8 13 18 23 28,PHB1 238
+orb of invasive fortune,implement,orb,20 25 30,PHB1 238
+orb of reversed polarities,implement,orb,9 14 19 24 29,PHB1 238
+orb of sanguinary reperscussions,implement,orb,5 10 15 20 15 30,PHB1 239
+,,,,
+bag of holding,wondrous,,4,PHB1 253
+,,,,
+potion of healing,consumable,potion,5,PHB1 255
+,,,,
+agile resolve vestment,armor,cloth,2 7 12 17 22 27,PHB2 199
+astral fire armor,armor,chain,2 7 12 17 22 27,PHB2 199
+,,,,
+autumn harvest totem,implement,totem,2 7 12 17 22 27,PHB2 208
+feral spirit totem,implement,totem,8 13 18 23 28,PHB2 208
+hungry spirits totem,implement,totem,2 7 12 17 22 27,PHB2 208
+magic totem,implement,totem,1 6 11 16 21 26,PHB2 208
+pure spirit totem,implement,totem,5 10 15 20 25 30,PHB2 208
+spring renewal totem,implement,totem,5 10 15 20 25 30,PHB2 208
+summer growth totem,implement,totem,3 8 13 18 23 28,PHB2 208
+watchful spirit totem,implement,totem,3 8 13 18 23 28,PHB2 208

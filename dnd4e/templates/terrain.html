@@ -1,0 +1,88 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Terrain</span>
+        </div>
+    </div>
+</div>
+
+
+<div id="gallery_section" class="row">
+    <!--
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Gallery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "gallery" %}</div>
+    </div>
+    -->
+    <div class="col-xs-12">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="gallery_panel">
+
+                {% ctrl_gallery "/static/images/models/board base 01.jpg" "Base Board: Wilderness" %}
+                {% ctrl_gallery "/static/images/models/board base 02.jpg" "Base Board: City & Underground" %}
+
+                {% ctrl_gallery "/static/images/models/board impassable 01.jpg" "Impassable: Crag" %}
+                {% ctrl_gallery "/static/images/models/board impassable 02.jpg" "Impassable: Wood Building" %}
+                {% ctrl_gallery "/static/images/models/board impassable 03.jpg" "Impassable: Wall" %}
+                {% ctrl_gallery "/static/images/models/board impassable 04.jpg" "Impassable: Pit" %}
+
+                {% ctrl_gallery "/static/images/models/board difficult 02.jpg" "Difficult: Waterway" %}
+                {% ctrl_gallery "/static/images/models/board difficult 03.jpg" "Difficult: Rocks" %}
+                {% ctrl_gallery "/static/images/models/board difficult 01.jpg" "Difficult: Woods" %}
+
+                {% ctrl_gallery "/static/images/models/board hindering 01.jpg" "Hindering: Vengevine" %}
+                {% ctrl_gallery "/static/images/models/board hindering 02.jpg" "Hindering: Fungal Bloom" %}
+ 
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+
+$(document).ready(function()
+{
+    var visWidth = $('#content_background').width();
+    var visHeight = $('#content_background').height();
+
+    jQuery('a.gallery_link').colorbox({
+        'rel': 'group1',
+        'maxHeight': visHeight -90,
+        'maxWidth': visWidth -0,
+        'scalePhotos': true,
+        'title': function(){ return $(this).find('img').attr('alt'); },
+        'loop': false,
+        'current': "#{current} of {total}",
+    });
+
+});
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Manage Database</span>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="load_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Load Tables</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "load" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="row">
+                <div class="col-sm-6">
+                    {% ctrl_table "database" "center" %}
+                </div>
+                <div class="col-sm-6">
+                    <div class="format_center" style="padding-top: 20px;">
+                        {% ctrl_button "load" "OK Load" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+    var tableData = $.parseJSON('{{ tableData }}');
+    var fullT = JSONtoFullTable(tableData['data']);
+    SetDataTable('#database_table', fullT, tableData['colFormat']);
+    
+    $("#load_button").click(function() {
+        LoadData();
+    });
+    
+});
+
+
+function LoadData()
+{    
+    $("body").css("cursor", "wait");
+    
+    $.ajax({
+        url: '/dnd4e/db_edit/load_tables/',
+        success: function(p_data) {     cl(p_data);
+            $('body').css('cursor', 'default');
+            location.reload(); 
+        }, 
+        error: function(p_err) {
+            ErrorToStatus(p_err.responseText, "LoadData()", '#load_status');
+        },
+    });
+}
+
+
+
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

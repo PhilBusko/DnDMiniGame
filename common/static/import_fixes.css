@@ -1,0 +1,119 @@
+
+/******************************************************************************
+BOOTSTRAP OVERRIDES
+******************************************************************************/
+
+
+html {
+    font-size: 16px;
+    color: black;
+}
+
+hr {    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+label {
+    font-weight: inherit;
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: auto;
+    /* TODO affects inside of pages */
+}
+
+.col-xs-12, .col-xs-11, .col-xs-10, .col-xs-9, .col-xs-8, .col-xs-7, .col-xs-6, .col-xs-5, .col-xs-4, .col-xs-3, .col-xs-2,
+.col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2,
+.col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2,
+.col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2
+{
+    padding: 0;
+}
+
+
+.navbar {
+    margin-bottom: initial;
+    border: 0px;
+    border-radius: 0;
+}
+
+.navbar-default {
+    /* used in collapse menu */
+    background-color: inherit;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar-fixed-side {
+    overflow: visible;
+    margin: 0;
+}
+
+.navbar-fixed-side .navbar-nav {
+    margin: 0;
+}
+
+.navbar-fixed-side .navbar-collapse {
+    border: 0;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border-radius: 0px;
+}
+
+.navbar-fixed-side .navbar-nav .dropdown-menu {
+    border: none;
+}
+
+
+
+/******************************************************************************
+JQUERY OVERRIDES
+******************************************************************************/
+
+.fa-input {
+    font-family: FontAwesome, Impact;
+}
+
+.noCloseButton .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-tooltip-content {
+    /* affects all $.tooltip */
+    font-family: Salsa !important;
+    font-size: 13pt;
+}
+
+.fc-today-button {
+    display: none;
+}
+
+.fc-toolbar {
+    margin-bottom: 8px !important;
+    font-size: 18px !important;
+}
+
+.ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    /* jquery-ui, sets font of form.label in template */
+    font-family: Salsa, Salsa_IE;
+    font-size: 16px !important;
+}
+
+table.dataTable thead th {
+    padding: 10px 10px;
+}
+
+
+/******************************************************************************
+END OF FILE
+******************************************************************************/

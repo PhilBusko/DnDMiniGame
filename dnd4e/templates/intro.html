@@ -1,0 +1,98 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Mini-Game Introduction</span>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="intro_section" class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="inner_margin2">
+                Welcome to the Mini-Game Expansion, a rules expansion for D&D 4E. 
+                The goals of this expansion are to introduce house rules that improve the existing game, 
+                and to add new rules that streamline and automate the game. 
+                For example, the DMG has suggestions for how to run skill challenges, 
+                as well as ideas for terrain rules in a combat encounter. 
+                This expansion standardizes those choices to help players become familiar with each routine, and to make the game faster. 
+                It consist of three rule books: House Rules, StoryTelling System, and World Builder’s Guide. 
+            </div>
+            <div class="inner_margin2">
+                &nbsp; &nbsp; &nbsp; 
+                The House Rules book starts by defining the core rules that the expansion uses from the published rule set. 
+                It goes on to the custom character creation guide which uses the new rules provided in this expansion for weapons and feats. 
+                It standardizes the combat setup routine as well as the post-combat looting, greatly increasing the value of skills. 
+                Even further, it provides entirely new types of combat, such as the chase. 
+            </div>
+            <div class="inner_margin2">
+                &nbsp; &nbsp; &nbsp; 
+                The StoryTelling System book introduces a new framework for standardizing and 
+                automating the adventuring tasks which are known as the party actions. 
+                For each task, such as purchasing magic items or traveling cross-country, 
+                a complete set of rules is provided so that players can run the task themselves. 
+                This frees up the DM so their role becomes general oversight, and not micro-management. 
+                Additionally, there are the bounty quests, which are randomly generated mini-quests. 
+                They are repeatable and are also run by the players themselves - 
+                eliminating the need for the DM to create new storylines for every single game day. 
+                The routine tasks and bounties reinforce the fact that skills are as important as attack bonus, 
+                so just creating a power-game combat character is not enough to be successful in the course of the game.
+            </div>
+            <div class="inner_margin2">
+                &nbsp; &nbsp; &nbsp; 
+                The World Builder’s Guide is designed to automate the creation of a campaign setting that works with the party action system. 
+                It start with a region, which sets the geography (mountains, seas, etc) and terrain (forest, swamp, etc). 
+                A region is populated with domains, which are built by civilized races from the Monster Manual. 
+                Domains have a technology level, culture, factions, and settlements. 
+                Settlements provide homes, services, and adventures to the PCs. 
+                Additionally, there is an encounter group generator which is the best in the world for a table top RPG.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{
+    
+    var winH = $(window).height();   // returns height of browser viewport
+    var winW = $(window).width();   
+    var docH = $(document).height(); // returns height of HTML document
+    var docW = $(document).width(); 
+    
+    var bodyH = $('body').height();
+    var bodyW = $('body').width();
+    
+    var contentH = $('#content').height();
+    var contentW = $('#content').width();
+    
+    cl("window: " + winW + ", " + winH);
+    cl("body: " + bodyW + ", " + bodyH);
+    cl("content: " + contentW + ", " + contentH);
+    
+});
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

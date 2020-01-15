@@ -1,0 +1,247 @@
+
+{% extends "base_nonav.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_">
+            <span class="font_title">DeviantArt Scraper</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_" style="margin-right: 0px;">
+                        <span class="font_section"></span>
+                    </div>
+                </div>
+                <div class="display_cellT" style="width: 100%;">
+                    <div class="display_block frame_ format_separator">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "section" %}</div>
+    </div>
+
+    <div class="col-xs-10 col-xs-offset-2 col-md-7">
+        <div class="inner_margin1 outer_padding2 format_outline" style="width:100%;">
+            <!--
+            {% ctrl_select "website" "Website" %} <br>
+            -->
+
+            <div class="display_table" style="max-width: 400px;">
+                <div class="display_row">
+                    {% ctrl_input "gallName" "Gallery Name" True %} 
+                </div>
+                <div class="display_row">
+                    {% ctrl_input "colxName" "Collection Name" True %} 
+                </div>
+            </div>
+            <br>
+
+            <div class="format_center">
+                {% ctrl_button "scrape" "Scrape" %} 
+            </div>
+
+            <div class="" style="background: Gainsboro;">
+                {% ctrl_table "status" %}
+            </div>
+            <br>
+
+        </div>
+    </div>
+
+    <!--
+    <div class="col-xs-10 col-xs-offset-2 col-md-5">
+        <div class="inner_margin1 outer_padding2 format_outline" style="width:100%;">
+            <div class="" style="text-align: right;">
+                {% ctrl_button "clear" "Clear Media" %} 
+            </div>
+            <div class="">
+                <div id="links_parent"> </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+$(document).ready(function()
+{      
+    $("body").css("cursor", "wait");
+    
+    var options_ls = $.parseJSON('{{ scrapeSites | escapejs }}');        
+    $.each(options_ls, function(key, value) {
+        $('#website_select').append($('<option>', {value : key }).text(value));
+    });
+
+    $('#scrape_button').click(function() {
+        DeviantScrape();
+    });
+
+    $('#clear_button').click(function() {
+        ClearMedia();
+    });
+
+
+    var media_ls = $.parseJSON('{{ currMedia | escapejs }}');        
+
+    cl(media_ls);
+
+    $.each(media_ls, function(key, value) {
+        DisplayLink(value['url'], value['name']);
+    });
+
+    $('body').css('cursor', 'default');
+});
+
+
+function DisableForm()
+{
+    $('#_select').prop('disabled', true);
+    $('body').css('cursor', 'wait');
+    $('#scrape_button').css('cursor', 'wait');
+}
+
+function EnableForm()
+{
+    $('#_select').prop('disabled', false);
+    $('body').css('cursor', 'default');    
+    $('#scrape_button').css('cursor', 'pointer');
+}
+
+
+function DeviantScrape()
+{    
+    var site = $('#_text').text();
+    var gallName = $('#gallName_input').val();
+    var colxName = $('#colxName_input').val();
+
+    if (gallName == false)
+    {
+        alert("Gallery Name is required.");
+        return;
+    }
+
+    if (colxName == false)
+        colxName = gallName;
+
+    DisableForm();
+    $('#status_table').empty();
+
+    $.ajax({
+        type: 'POST',
+        url: '{% url  "webscraper:scraper_jx" "deviant_scrape" %}',
+        data: {'gallName': gallName, 'colxName': colxName},
+        success: function(p_data) {     cl(p_data);
+
+            DisplayStatus(p_data.galleryRip);
+
+            // display files in media folder
+
+            $('#links_parent').empty();
+
+            $.each(p_data['currMedia'], function(key, value) {
+                DisplayLink(value['url'], value['name']);
+            });
+
+        }, 
+        error: function(p_err) {
+            ErrorToStatus(p_err.responseText, "DeviantScrape()", '#section_status');
+        },
+        complete: function() {
+            EnableForm();
+        }
+    });
+}
+
+
+function DisplayStatus(p_status)
+{    
+
+    var table = $('#status_table').DataTable( {
+        data: p_status,
+        aoColumns: [
+            {
+                mData: "file name",
+                title: "File Name",
+                sClass: 'font_small',
+            },
+            {
+                mData: "master name",
+                title: "Master Name",
+                sClass: 'font_small format_fixline',
+            },
+            {
+                mData: "download",
+                title: "Download",
+                sClass: 'font_small',
+            },
+        ], 
+        bSort: true,
+        scrollCollapse: true,
+        paging: true,
+        bFilter: false,
+        bInfo: true,
+        bDestroy: true,                 
+    } );
+    
+}
+
+
+function DisplayLink(p_url, p_name)
+{
+    var html = `
+        <div class="display_block inner_margin2">
+            <a id="file_link" class="font_link" href="{0}" download>{1}</a>
+        </div><br>`.format(p_url, p_name);
+
+    $('#links_parent').append(html);
+}
+
+
+function ClearMedia()
+{    
+    DisableForm();
+    $('#status_table').empty();
+
+    $.ajax({
+        type: 'POST',
+        url: '{% url  "webscraper:scraper_jx" "clear_media" %}',
+        success: function(p_data) {     cl(p_data);
+
+            $('#links_parent').empty();
+        }, 
+        error: function(p_err) {
+            ErrorToStatus(p_err.responseText, "ClearMedia()", '#section_status');
+        },
+        complete: function() {
+            EnableForm();
+        }
+    });
+}
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

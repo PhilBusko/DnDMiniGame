@@ -1,0 +1,128 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Magic Items</span>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div id="randoms_section" class="row">
+
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Random Item</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "random" %}</div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            {% ctrl_label "rand" "Roll Item" "font_strong" %}
+            <div class="display_table">
+                <div class="display_row">
+                    {% ctrl_select "level" "Source Level" %} 
+                </div>
+                <div class="display_row">
+                    
+                </div>
+            </div>
+            <div class="format_center">
+                {% ctrl_button "random" "OK Roll" %}
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp" 
+            style="min-height: 254px;">
+            {% ctrl_label "td" "Result Item" "font_strong" %}
+
+            <div class="inner_margin2" style="display: block;">
+                <table id="random_table" class="row-border" 
+                    style="width: 310px; margin: 0px auto; padding-top: 2px; 
+                    border: 1px solid black; background: white; color: black;">
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+
+$(document).ready(function()
+{
+    $('body').css('cursor', 'wait');
+    
+    for (var v = 1; v <= 30; v++) {
+        $("#level_select").append($('<option>', {value : v }).text(v));
+    }
+    
+    var slots = ["Any", "Armor", "Weapons", "Holy Symbols", "Orbs", "Rods", "Staffs", "Wands", "Totems", "Ki Focus",
+                 "Arms", "Feet", "Hands", "Head", "Neck", "Ring", "Waist", "Wondrous", "Consumable"]
+    
+    $.each(slots, function(key, value) {
+        $("#slot_select").append($('<option>', {value : key }).text(value));
+    });
+    
+    $("#random_button").click(function() {
+        RollRandomItem();
+    });
+    
+    $('body').css('cursor', 'default');
+});
+
+
+function RollRandomItem()
+{    
+    var level = $('#level_select').val();
+    var slot = $('#slot_select').val();
+    
+    $.ajax({
+        url: '/dnd4e/db_report/rollitem/',
+        data: {'level': level,},
+        success: function(p_data) {     //cl(p_data);
+            
+            var rolledItem = p_data.data[p_data.rolledIndex];
+            var itemT = JObjToFullTable(rolledItem);
+            var trans = TransposeFullTable(itemT);
+            SetVerticalTable('#random_table', trans);
+            
+        }, 
+        error: function(p_err) {
+            ErrorToStatus(p_err.responseText, "RollRandomItem()", '#random_status');
+        },
+    });
+}
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

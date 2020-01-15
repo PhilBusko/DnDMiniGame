@@ -1,0 +1,33 @@
+
+{% extends "common_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+<div class="spacer_col100">
+    <br><br>
+    {% ctrl_image "logo" "image_smallSize format_frame" %}
+    <br><br>
+    {% ctrl_strong "tt" "Page Not Found" %}
+    <p class="font_normal">
+        The requested URL does not exist.
+    </p>
+</div>
+
+
+<script>
+
+$(document).ready(function()
+{   
+    var path = "/static/images/UFO logo.png";
+    $('#logo_image').attr('src', path);
+});
+
+</script>
+
+{% endblock content %}
+
+
+
+
+

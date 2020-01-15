@@ -1,0 +1,435 @@
+/******************************************************************************
+NAVIGATION
+******************************************************************************/
+
+.navbar-brand {
+    white-space: nowrap;
+}
+
+.navbar-nav > li > a,
+.navbar-nav > li > span {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+}
+
+.navbar-nav > li > span {
+    display: block;
+    color: #9d9d9d;
+    line-height: 20px;
+}
+
+.navbar-nav > li:hover > span{
+    color: white;
+}
+
+.navbar-fixed-side .navbar-collapse {
+    border: none;
+}
+
+.navbar-fixed-side .navbar-nav .dropdown-menu {
+    background-color:  #222 ;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-fixed-side .dropdown .dropdown-toggle {
+    text-transform: none;
+}
+
+.navbar-fixed-side {
+    overflow: visible;
+}
+
+.navbar-fixed-side .dropdown > .dropdown-toggle {
+    background-color:  #222;
+    padding-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+    .navbar-fixed-side .dropdown .dropdown-menu {
+        position: absolute;
+        top: 0px;
+        margin-left: 100%;
+        display: none;
+    }
+    .navbar-fixed-side .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.dropdown-toggle {
+    font-size: inherit !important;
+    padding: 8px 8px;
+}
+
+.navbar-fixed-side .navbar-inverse .dropdown > .dropdown-toggle {
+    color: #9d9d9d !important;
+}
+
+.dropdown-menu {
+    background-color: #222;
+    padding: 0 0;
+}
+
+.dropdown-menu > li > a {
+    padding: 8px 8px;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.navlogo {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .navlogo {
+        width: 50%;
+        float: left;
+    }
+}
+
+
+.content_fixed {
+    position: fixed;
+    z-index: -10;
+    width: 91.7%;   /* based on size of menu bar */
+    height: 100%;
+    
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;  
+    background-color: #C0C0C0;      /* silver */
+}
+@media (max-width: 768px) {
+    .content_fixed {
+        width: 100%;
+    }
+}
+
+.content_overlay {
+    position: fixed;
+    z-index: -9;
+    width: 91.7%;   /* based on size of menu bar */
+    height: 100%;
+
+    background-color: rgba(192, 192, 192, 0.18);      /* silver */
+}
+@media (max-width: 768px) {
+    .content_overlay {
+        width: 100%;
+    }
+}
+
+
+
+/******************************************************************************
+FORMAT GRID
+******************************************************************************/
+
+.outer_padding1 {
+    padding: 10px 10px 10px 10px;      /* T R B L */
+}
+
+.inner_margin1 {
+    margin: 10px;
+    display: inline-block;  /* prevent margin from collapsing */
+}
+
+.outer_padding2 {
+    padding: 6px;
+}
+
+.inner_margin2 {
+    margin: 6px;
+    display: inline-block;  /* prevent margin from collapsing */
+}
+
+.padding_dialog {
+    padding: 0px 8px;
+}
+
+.format_separator {
+    border-bottom: hidden !important;
+    margin: 8px 8px 0px -4px;
+}
+
+.ctrl_separator {
+    margin: 4px;
+    border: none;
+    height: 1px;
+    background-color: #A9A9A9;
+}
+
+
+.display_block {
+    display: block;
+}
+
+.display_table {
+    display: table;
+    border-collapse: collapse;
+}
+
+.display_row {
+    display: table-row;
+}
+
+.display_cellM {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.display_cellT {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.display_canvas {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+}
+
+.format_frame {
+    border-width: 4px;
+    border-style: ridge;
+}
+
+.format_outline {
+    border: 1px solid black;    
+}
+
+.format_inside {
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 1px;   /* T R B L */
+}
+
+.format_inside2 {
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 2px;   /* T R B L */
+}
+
+.format_full {
+    width: 100%; 
+}
+
+
+/******************************************************************************
+FORMAT CUSTOM
+******************************************************************************/
+
+.format_center {
+    text-align: center;  /* works for block formatting context */
+    margin: auto;        /* works for position relative, etc */
+}
+
+.format_cpointer {
+    cursor: pointer;
+}
+
+.format_fixline {
+    /* used in jQuery DataTable */
+    white-space: nowrap;
+}
+
+
+.frame_transp {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 4px;
+
+    box-shadow: 
+        -2px 0px 6px rgba(255, 255, 255, 0.80),
+        0px -2px 6px rgba(255, 255, 255, 0.80),
+        2px 0px 6px rgba(255, 255, 255, 0.80),
+        0px 2px 6px rgba(255, 255, 255, 0.80);
+}
+
+
+/******************************************************************************
+FONTS
+******************************************************************************/
+
+.font_default {
+    font-family: 'lymphatti' !important;
+    font-size: 100%;    /* other font-sizes are based on this % */
+    color: black;
+}
+
+.font_title {
+    font-family: 'dalelands' !important;
+    font-size: 260%;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 0 20px 0 20px; /* account for line height extending the top-bottom */
+}
+
+.font_section {
+    font-size: 180%;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 0 10px 0 10px; /* account for line height extending the top-bottom */
+}
+
+.font_strong {
+    /* column title */
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.font_small {
+    font-size: 90%;
+}
+
+.font_bold {
+    /* used in jQuery DataTable */
+    font-weight: bold; 
+}
+
+.font_nav {
+    font-family: 'dungeon' !important;
+    font-size: 210%;
+}
+
+.font_link {
+    font-size: 120%;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.list_bullet {
+    margin: 0px;
+    list-style-type: disc;
+    padding: 2px;
+    padding-left: 30px;
+}
+
+
+@font-face {
+    font-family: 'lymphatti';
+    src: url('fonts/lymphatti.ttf');
+}
+
+@font-face {
+    font-family: 'dalelands';
+    src: url('fonts/dalelands.otf');
+}
+
+@font-face {
+    font-family: 'vecna';
+    src: url('fonts/vecna.otf');
+}
+
+@font-face {
+    font-family: 'dungeon';
+    src: url('fonts/dungeon.ttf');
+}
+
+
+
+/******************************************************************************
+IMAGES
+******************************************************************************/
+
+
+.gallery_panel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery_link {
+    position: relative;
+    margin: 6px;
+}
+
+.gallery_thumb {
+    max-height: 220px;
+}
+@media (max-width: 1200px) {
+    .gallery_thumb {
+        max-height: 190px;
+    }
+}
+
+
+.caption_pos {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    text-align: center;
+}
+
+.gallery_link:hover .caption_pos {  /* any parent class */
+    display: block;
+}
+
+.caption_font {
+    background: rgb(255, 255, 255, 0.9);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0 4px 0 4px;
+    color: black;
+    white-space: nowrap;
+}
+
+
+
+#cboxPrevious {
+    position: fixed;
+    left: 0px;
+    width: 38px;
+}
+
+#cboxNext {
+    position: fixed;
+    right: 0px;
+    width: 38px;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper  {
+    overflow: visible;
+    -webkit-transform: none; /* why does this move the arrows to the screen edge? */
+}
+
+#cboxOverlay {
+    opacity: 0.8 !important;
+}
+
+#cboxTitle {
+    top: auto;   
+    bottom: -30px;
+    color: white !important;
+    font-size: 120%;
+}
+
+#cboxCurrent {
+    top: auto;
+    bottom: -30px;
+    color: white !important;
+    font-size: 110%;
+}
+
+#cboxLoadedContent {
+    border: 4px ridge #C0C0C0;
+}
+
+#cboxClose {
+    display: none; 
+    /* close by clicking on overlay */
+}
+
+
+
+/******************************************************************************
+END OF FILE
+******************************************************************************/

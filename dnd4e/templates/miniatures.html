@@ -1,0 +1,90 @@
+
+{% extends "dnd4e_base.html" %}
+{% load utility_ttags %}
+
+{% block content %}
+
+
+<div id="title_section" class="row">
+    <div class="col-xs-12 format_center">
+        <div class="inner_margin1 frame_transp">
+            <span class="font_title">Miniatures</span>
+        </div>
+    </div>
+</div>
+
+
+<div id="gallery_section" class="row">
+    <!--
+    <div class="col-xs-12">
+        <div class="display_table">
+            <div class="display_row">
+                <div class="display_cellM">
+                    <div class="inner_margin1 frame_transp" style="margin-right: 0px;">
+                        <span class="font_section">Gallery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;">{% ctrl_status "gallery" %}</div>
+    </div>
+    -->
+    <div class="col-xs-12">
+        <div class="display_block inner_margin1 outer_padding2 frame_transp">
+            <div class="gallery_panel">
+
+                {% ctrl_gallery "/static/images/models/kingdom named 01.jpg" "Heroes: Alliance" %}
+                {% ctrl_gallery "/static/images/models/kingdom named 02.jpg" "Heroes: Rare & Evil" %}
+                {% ctrl_gallery "/static/images/models/kingdom named 03.jpg" "Heroes: Companions" %}
+
+                {% ctrl_gallery "/static/images/models/kingdom humanoids 01.jpg" "Humanoids: Light Side" %}
+                {% ctrl_gallery "/static/images/models/kingdom humanoids 02.jpg" "Humanoids: Dark Side" %}
+                {% ctrl_gallery "/static/images/models/kingdom beastmen 01.jpg" "Beastmen: Front Row" %}
+                {% ctrl_gallery "/static/images/models/kingdom beastmen 02.jpg" "Beastmen: Back Row" %}
+                {% ctrl_gallery "/static/images/models/kingdom beastmen 04.jpg" "Beastmen: Large" %}
+                {% ctrl_gallery "/static/images/models/kingdom water.snakes 02.jpg" "Water Snakes: Medium" %}
+                {% ctrl_gallery "/static/images/models/kingdom water.snakes 03.jpg" "Water Snakes: Large" %}
+
+                {% ctrl_gallery "/static/images/models/kingdom natural.world 01.jpg" "Natural World" %}
+                {% ctrl_gallery "/static/images/models/kingdom demon .jpg" "Demons" %}
+                {% ctrl_gallery "/static/images/models/kingdom aberration 01.jpg" "Aberrations" %}
+                {% ctrl_gallery "/static/images/models/kingdom undead 01.jpg" "Undead" %}
+ 
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script>
+
+
+$(document).ready(function()
+{
+    var visWidth = $('#content_background').width();
+    var visHeight = $('#content_background').height();
+
+    jQuery('a.gallery_link').colorbox({
+        'rel': 'group1',
+        'maxHeight': visHeight -90,
+        'maxWidth': visWidth -0,
+        'scalePhotos': true,
+        'title': function(){ return $(this).find('img').attr('alt'); },
+        'loop': false,
+        'current': "#{current} of {total}",
+    });
+
+});
+
+
+</script>
+
+{% endblock content %}
+
+
+
+
+
